@@ -1,0 +1,312 @@
+{
+	id: "319D100A2D0B86EC"
+	group: "6679A6AFB45AA899"
+	order_index: 1
+	filename: "pnuematicraft"
+	title: "Pressure "
+	icon: "pneumaticcraft:reinforced_pressure_tube"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: -3.9000000000000004d
+			shape: "gear"
+			dependencies: ["55F5BF9283BF5CA2"]
+			size: 1.3d
+			id: "1FDD4A66478EF5FB"
+			tasks: [{
+				id: "21D79E1FD437FAC9"
+				type: "item"
+				item: "pneumaticcraft:pressure_tube"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -2.5d
+			dependencies: ["1FDD4A66478EF5FB"]
+			id: "563E4965F89EC89B"
+			tasks: [{
+				id: "27FD8B5528FA1B60"
+				type: "item"
+				item: "pneumaticcraft:manual_compressor"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 2.0d
+			dependencies: [
+				"32DCDA06578469C3"
+				"6B444501811D0600"
+			]
+			id: "5FD0482F17FD8D59"
+			tasks: [
+				{
+					id: "4B7750C26FFA1109"
+					type: "item"
+					item: "pneumaticcraft:pressure_chamber_wall"
+				}
+				{
+					id: "5106474804CA6891"
+					type: "item"
+					item: "pneumaticcraft:pressure_chamber_glass"
+				}
+				{
+					id: "535B2CF825C975C2"
+					type: "item"
+					item: "pneumaticcraft:pressure_chamber_valve"
+				}
+				{
+					id: "5CE93D1BC8605CC6"
+					type: "item"
+					item: "pneumaticcraft:pressure_chamber_interface"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -1.0d
+			dependencies: ["563E4965F89EC89B"]
+			id: "6AD3D0E54422B053"
+			tasks: [{
+				id: "7552C07581C23717"
+				type: "item"
+				item: "pneumaticcraft:biodiesel_bucket"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 0.5d
+			dependencies: ["6AD3D0E54422B053"]
+			id: "6B444501811D0600"
+			tasks: [{
+				id: "2F2F693D041FDB07"
+				type: "item"
+				item: "pneumaticcraft:liquid_compressor"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 0.5d
+			dependencies: ["6AD3D0E54422B053"]
+			id: "68A74B7FD8597E2C"
+			tasks: [{
+				id: "395ACCA4FA0911BB"
+				type: "item"
+				item: "pneumaticcraft:thermopneumatic_processing_plant"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 2.0d
+			dependencies: ["68A74B7FD8597E2C"]
+			id: "32DCDA06578469C3"
+			tasks: [{
+				id: "78457443701CF7B1"
+				type: "item"
+				item: "pneumaticcraft:plastic"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 2.0d
+			dependencies: ["5FD0482F17FD8D59"]
+			id: "7D6203414DA44922"
+			tasks: [{
+				id: "129799F75952D4CE"
+				type: "item"
+				item: "industrialrenewal:high_pressure_pipe"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 2.0d
+			dependencies: ["7D6203414DA44922"]
+			id: "7703F92E105F58E3"
+			tasks: [
+				{
+					id: "0D16C1FB30901E4E"
+					type: "item"
+					item: "industrialrenewal:dam_intake"
+				}
+				{
+					id: "2798CC1768669E51"
+					type: "item"
+					item: "industrialrenewal:dam_outflow"
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 3.5d
+			dependencies: ["7703F92E105F58E3"]
+			id: "3F62FB8505838E53"
+			tasks: [
+				{
+					id: "6A2C61626CDA400F"
+					type: "item"
+					item: "industrialrenewal:dam_turbine"
+				}
+				{
+					id: "11C9C34C4AE6AB66"
+					type: "item"
+					item: "industrialrenewal:dam_axis"
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 5.0d
+			description: ["your best power source for a bit"]
+			dependencies: ["3F62FB8505838E53"]
+			id: "0892C1029236E237"
+			tasks: [{
+				id: "178889564C517120"
+				type: "item"
+				item: "industrialrenewal:dam_generator"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 3.5d
+			dependencies: ["5FD0482F17FD8D59"]
+			id: "44323C02F4D9A152"
+			tasks: [
+				{
+					id: "64CD78C8E36EED09"
+					type: "item"
+					item: "pneumaticcraft:etching_acid_bucket"
+				}
+				{
+					id: "573AD42137BB5A7D"
+					type: "item"
+					item: "pneumaticcraft:etching_tank"
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: 5.0d
+			dependencies: ["44323C02F4D9A152"]
+			id: "052F3AAA870C46B3"
+			tasks: [{
+				id: "7FEABD0670DD116E"
+				type: "item"
+				item: "pneumaticcraft:printed_circuit_board"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 6.5d
+			dependencies: ["052F3AAA870C46B3"]
+			id: "0FBE0955F3EEFCA6"
+			tasks: [
+				{
+					id: "2CC8B8565AB50BF8"
+					type: "item"
+					item: "pneumaticcraft:assembly_platform"
+				}
+				{
+					id: "0548D51A046E3903"
+					type: "item"
+					item: "pneumaticcraft:assembly_io_unit_import"
+				}
+				{
+					id: "004051C3DBCA2546"
+					type: "item"
+					item: "pneumaticcraft:assembly_io_unit_export"
+				}
+				{
+					id: "7770DE0836EC8DF8"
+					type: "item"
+					item: "pneumaticcraft:assembly_drill"
+				}
+				{
+					id: "391AC7EDA447E08C"
+					type: "item"
+					item: "pneumaticcraft:assembly_laser"
+				}
+				{
+					id: "67478A5A03103267"
+					type: "item"
+					item: "pneumaticcraft:assembly_controller"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 8.0d
+			dependencies: ["0FBE0955F3EEFCA6"]
+			id: "4FB1F06DFE8078D6"
+			tasks: [{
+				id: "6C5DF113D405760E"
+				type: "item"
+				item: "pneumaticcraft:advanced_pressure_tube"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 6.5d
+			dependencies: ["052F3AAA870C46B3"]
+			id: "01CBEEC1FC61446A"
+			tasks: [
+				{
+					id: "4FBA3D76DAA774F0"
+					type: "item"
+					item: {
+						id: "pneumaticcraft:pneumatic_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7A11211CD35B09D0"
+					type: "item"
+					item: {
+						id: "pneumaticcraft:pneumatic_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "569654839F226AAC"
+					type: "item"
+					item: {
+						id: "pneumaticcraft:pneumatic_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0C45711C526D64F9"
+					type: "item"
+					item: {
+						id: "pneumaticcraft:pneumatic_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 8.0d
+			dependencies: ["4FB1F06DFE8078D6"]
+			id: "341BDA5DF054EFA3"
+			tasks: [{
+				id: "74A7F6186683B9A4"
+				type: "item"
+				item: "compressedcreativity:rotational_compressor"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

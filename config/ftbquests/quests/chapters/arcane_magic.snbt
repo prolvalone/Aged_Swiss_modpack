@@ -1,0 +1,447 @@
+{
+	id: "4892A9BEFEA02CD3"
+	group: "4E4B712B3672CD1B"
+	order_index: 2
+	filename: "arcane_magic"
+	title: "Arcane Magic"
+	icon: "summoningrituals:altar"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 1.5d
+			y: -5.0d
+			id: "395F271C571A7596"
+			tasks: [{
+				id: "196645195A604435"
+				type: "item"
+				item: "bloodmagic:altar"
+			}]
+			rewards: [{
+				id: "43BC1BB256C6257A"
+				type: "item"
+				item: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "bloodmagic:guide"
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: -3.5d
+			dependencies: ["395F271C571A7596"]
+			id: "1854F5FE8A427D60"
+			tasks: [{
+				id: "0A75C9C0ABCCDC82"
+				type: "item"
+				item: {
+					id: "bloodmagic:sacrificialdagger"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 0.5d
+			y: -2.5d
+			dependencies: ["1854F5FE8A427D60"]
+			id: "2F5B5C84F78E4D1D"
+			tasks: [{
+				id: "5D8A43D384E63A33"
+				type: "item"
+				item: "bloodmagic:weakbloodorb"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -2.5d
+			dependencies: ["1854F5FE8A427D60"]
+			id: "26748AACAEC24E07"
+			tasks: [{
+				id: "1B5DAC00B6992774"
+				type: "item"
+				item: "bloodmagic:soulsnare"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -1.5d
+			dependencies: ["26748AACAEC24E07"]
+			id: "211A4647C62B5949"
+			tasks: [{
+				id: "65065893ACF16815"
+				type: "item"
+				item: {
+					id: "bloodmagic:basemonstersoul"
+					Count: 1b
+					tag: {
+						souls: 5.0d
+					}
+				}
+			}]
+		}
+		{
+			x: 3.5d
+			y: 0.0d
+			dependencies: ["211A4647C62B5949"]
+			id: "68446032A8028A91"
+			tasks: [{
+				id: "6C358E9959BF1611"
+				type: "item"
+				item: "bloodmagic:soulforge"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 1.5d
+			description: ["Can Be upgraded to hold more Will"]
+			dependencies: ["68446032A8028A91"]
+			id: "24A7C15185402F5A"
+			tasks: [{
+				id: "1FD51C995C050F61"
+				type: "item"
+				item: {
+					id: "bloodmagic:soulgempetty"
+					Count: 1b
+					tag: {
+						souls: 64.0d
+					}
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: 3.0d
+			dependencies: ["24A7C15185402F5A"]
+			id: "7DF834B44E85210A"
+			tasks: [{
+				id: "64F0722359E6C747"
+				type: "item"
+				item: "bloodmagic:demoncrystallizer"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 3.0d
+			dependencies: ["24A7C15185402F5A"]
+			id: "3ED389083CB4875E"
+			tasks: [{
+				id: "3982C168E80A9D5B"
+				type: "item"
+				item: "bloodmagic:demoncrucible"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 4.0d
+			dependencies: [
+				"3ED389083CB4875E"
+				"7DF834B44E85210A"
+			]
+			id: "7C1C1515B7380547"
+			tasks: [{
+				id: "5569BE31E13EF52F"
+				type: "item"
+				item: "bloodmagic:demonpylon"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 5.5d
+			dependencies: ["7C1C1515B7380547"]
+			id: "0EC80ACDC54649AE"
+			tasks: [
+				{
+					id: "6CC1DB8EAD237770"
+					type: "item"
+					item: {
+						id: "bloodmagic:basemonstersoul_corrosive"
+						Count: 1b
+						tag: {
+							souls: 5.0d
+						}
+					}
+				}
+				{
+					id: "216033BFE6BBF66A"
+					type: "item"
+					item: {
+						id: "bloodmagic:basemonstersoul_destructive"
+						Count: 1b
+						tag: {
+							souls: 5.0d
+						}
+					}
+				}
+				{
+					id: "4A18C2E470B38D3E"
+					type: "item"
+					item: {
+						id: "bloodmagic:basemonstersoul_steadfast"
+						Count: 1b
+						tag: {
+							souls: 5.0d
+						}
+					}
+				}
+				{
+					id: "54A7D67EE5B53390"
+					type: "item"
+					item: {
+						id: "bloodmagic:basemonstersoul_vengeful"
+						Count: 1b
+						tag: {
+							souls: 5.0d
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: 7.0d
+			dependencies: ["0EC80ACDC54649AE"]
+			id: "5722A8DFAA6DD28A"
+			tasks: [{
+				id: "591CEBBB3505E923"
+				type: "item"
+				item: "bloodmagic:rawdemoncrystal"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -1.5d
+			dependencies: ["2F5B5C84F78E4D1D"]
+			id: "37F1F0FE4C4A4115"
+			tasks: [{
+				id: "338840297BE50696"
+				type: "item"
+				item: "bloodmagic:blankslate"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 0.0d
+			dependencies: ["37F1F0FE4C4A4115"]
+			id: "3C726A7DD5D951F3"
+			tasks: [{
+				id: "379929F035FEA06E"
+				type: "item"
+				item: "bloodmagic:alchemytable"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 1.5d
+			dependencies: ["3C726A7DD5D951F3"]
+			id: "46E4399AA38B51DA"
+			tasks: [{
+				id: "7FE30011D404B324"
+				type: "item"
+				item: {
+					id: "bloodmagic:arcaneashes"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: -1.5d
+			dependencies: ["2F5B5C84F78E4D1D"]
+			id: "74BAB40549D72626"
+			tasks: [{
+				id: "58C76F366C0BE44D"
+				type: "item"
+				item: "bloodmagic:incensealtar"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 0.0d
+			dependencies: ["74BAB40549D72626"]
+			id: "199AC454F19B10B7"
+			tasks: [
+				{
+					id: "1A6012D2A818F99E"
+					type: "item"
+					item: "bloodmagic:woodbrickpath"
+				}
+				{
+					id: "6ADCF237BCAE1FB6"
+					type: "item"
+					item: "bloodmagic:stonebrickpath"
+				}
+				{
+					id: "780A32C8B4A7FDD8"
+					type: "item"
+					item: "bloodmagic:obsidianbrickpath"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 0.0d
+			dependencies: ["37F1F0FE4C4A4115"]
+			id: "358812FD5BEC4DB7"
+			tasks: [{
+				id: "3AEE7B8095160016"
+				type: "item"
+				item: "bloodmagic:blankrune"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 1.5d
+			dependencies: ["358812FD5BEC4DB7"]
+			id: "6594073BC13D9657"
+			tasks: [
+				{
+					id: "64899450EB16F465"
+					type: "item"
+					item: "bloodmagic:daggerofsacrifice"
+				}
+				{
+					id: "2A5DD17AD0880200"
+					type: "item"
+					item: "bloodmagic:apprenticebloodorb"
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: 1.5d
+			dependencies: ["358812FD5BEC4DB7"]
+			id: "69F0CDA3FFAAED3A"
+			tasks: [{
+				id: "7EBD382459508999"
+				type: "item"
+				item: {
+					id: "bloodmagic:alchemy_flask"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -2.0d
+			y: 3.0d
+			dependencies: ["6594073BC13D9657"]
+			id: "155E8A77DA4427B3"
+			tasks: [{
+				id: "42B84BA72E93F7A2"
+				type: "item"
+				item: "bloodmagic:ritualdiviner"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 3.0d
+			dependencies: ["6594073BC13D9657"]
+			id: "36A152EA3500FE1A"
+			tasks: [{
+				id: "217D710BF1221F0A"
+				type: "item"
+				item: "bloodmagic:magicianbloodorb"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 4.5d
+			dependencies: ["3BE79F5DB675B4BB"]
+			id: "5E15F3A9CC3E013A"
+			tasks: [
+				{
+					id: "3C25BDAA1EC03828"
+					type: "item"
+					item: "bloodmagic:weakbloodshard"
+				}
+				{
+					id: "35116C53A6611CF6"
+					type: "item"
+					item: "bloodmagic:largebloodstonebrick"
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: 6.0d
+			dependencies: ["5E15F3A9CC3E013A"]
+			id: "49C460F8F58C8A87"
+			tasks: [{
+				id: "51DE0F32B5484E66"
+				type: "item"
+				item: "bloodmagic:masterbloodorb"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 4.0d
+			shape: "square"
+			dependencies: [
+				"36A152EA3500FE1A"
+				"155E8A77DA4427B3"
+			]
+			id: "3BE79F5DB675B4BB"
+			tasks: [{
+				id: "11E36B85D10BE157"
+				type: "dimension"
+				title: "Demonic Realm"
+				icon: "bloodmagic:dungeon_ore"
+				dimension: "bloodmagic:dungeon"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 7.5d
+			dependencies: ["49C460F8F58C8A87"]
+			id: "431C3DE8A6F765F2"
+			tasks: [{
+				id: "0B0B945E3F90BF8F"
+				type: "item"
+				item: "bloodmagic:ingot_hellforged"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 9.0d
+			dependencies: ["431C3DE8A6F765F2"]
+			id: "78F83B96C296544F"
+			tasks: [{
+				id: "4C36CA03FD95E702"
+				type: "item"
+				item: "bloodmagic:archmagebloodorb"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 7.5d
+			dependencies: ["49C460F8F58C8A87"]
+			id: "6617756E8C18D6D1"
+			tasks: [{
+				id: "31C5C16F801B0D90"
+				type: "item"
+				item: "bloodmagic:mineentrancekey"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 9.0d
+			dependencies: ["6617756E8C18D6D1"]
+			id: "6C4369FA2AE17B03"
+			tasks: [{
+				id: "3436541A4F6A7E73"
+				type: "item"
+				item: "bloodmagic:minekey"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

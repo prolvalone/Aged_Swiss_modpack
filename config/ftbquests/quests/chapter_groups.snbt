@@ -1,0 +1,15 @@
+{
+	chapter_groups: [
+		{ id: "748EF2F3A4658B2B", title: "Age 0: Stone Age" }
+		{ id: "7C1BA70F4F0940AF", title: "Age 1: Metallurgic Age" }
+		{ id: "10AF14F0D01C293C", title: "Age 2: Medievil Ages" }
+		{ id: "138BF01B1E95BD7A", title: "Age 3: Industrial Revolution" }
+		{ id: "57B9D415D17C76EC", title: "Age 4: Age of Engineering" }
+		{ id: "6679A6AFB45AA899", title: "Age 5: The Petroleum Age" }
+		{ id: "4E4B712B3672CD1B", title: "Age 6: Space Age" }
+		{ id: "5CA561537C672A7E", title: "Age 7: Nuclear Age" }
+		{ id: "1C1AD6786E210272", title: "Age 8: Chemistry" }
+		{ id: "121E4FB2A5E4B005", title: "Age 9:  The Future" }
+		{ id: "0959301D65348E35", title: "Age 10: Draconic Age" }
+	]
+}

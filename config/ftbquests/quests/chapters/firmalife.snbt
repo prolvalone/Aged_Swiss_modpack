@@ -1,0 +1,583 @@
+{
+	id: "1B7AEE66B3CED64B"
+	group: "7C1BA70F4F0940AF"
+	order_index: 1
+	filename: "firmalife"
+	title: "Surviving the Winter"
+	icon: "firmalife:beehive"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -8.25d
+			y: -6.75d
+			shape: "gear"
+			size: 1.5d
+			id: "727C76C63052B8FA"
+			tasks: [{
+				id: "56B61C54ED34CDDE"
+				type: "item"
+				item: "firmalife:beehive"
+			}]
+		}
+		{
+			title: "Greenhouse"
+			x: -9.5d
+			y: -3.0d
+			description: ["Your First Greenhouse"]
+			dependencies: ["20A1227A1D4914DD"]
+			id: "1ED472FEA17711B5"
+			tasks: [
+				{
+					id: "61E42D068D175896"
+					type: "item"
+					item: "firmalife:treated_wood_greenhouse_wall"
+				}
+				{
+					id: "42B5351D006D7F2F"
+					type: "item"
+					item: "firmalife:treated_wood_greenhouse_roof"
+				}
+				{
+					id: "776B9924384A34D4"
+					type: "item"
+					item: "firmalife:treated_wood_greenhouse_roof_top"
+				}
+				{
+					id: "384AACEAF5096AA3"
+					type: "item"
+					item: "firmalife:treated_wood_greenhouse_door"
+				}
+			]
+		}
+		{
+			title: "Cellar"
+			x: -7.5d
+			y: -3.0d
+			description: ["Cellars will keep food preserved for longer times"]
+			dependencies: ["20A1227A1D4914DD"]
+			id: "426E1557BA74FE80"
+			tasks: [
+				{
+					id: "1D2F87E196B54D85"
+					type: "item"
+					item: "firmalife:sealed_bricks"
+				}
+				{
+					id: "604EA4A3636777C8"
+					type: "item"
+					item: "firmalife:sealed_door"
+				}
+			]
+		}
+		{
+			x: -8.5d
+			y: -2.0d
+			dependencies: [
+				"1ED472FEA17711B5"
+				"426E1557BA74FE80"
+			]
+			id: "7F16944F018EDC36"
+			tasks: [{
+				id: "30DAD7194FA9AC1C"
+				type: "item"
+				item: "firmalife:climate_station"
+			}]
+		}
+		{
+			x: -6.5d
+			y: 2.0d
+			dependencies: ["5280D4F2934795AD"]
+			id: "44E7DAF0653CE007"
+			tasks: [
+				{
+					id: "03BBE623F81CA360"
+					type: "item"
+					item: "firmalife:large_planter"
+				}
+				{
+					id: "7C682259E05E804F"
+					type: "item"
+					item: "firmalife:bonsai_planter"
+				}
+				{
+					id: "5C2478153540E342"
+					type: "item"
+					item: "firmalife:hanging_planter"
+				}
+				{
+					id: "6A123227BFCAB501"
+					type: "item"
+					item: "firmalife:trellis_planter"
+				}
+			]
+		}
+		{
+			x: -9.5d
+			y: 1.0d
+			dependencies: ["08165307BB7A4CF1"]
+			id: "0A1CA8F70785583A"
+			tasks: [
+				{
+					id: "7789F5D15BBBC113"
+					type: "item"
+					item: "firmalife:hydroponic_planter"
+				}
+				{
+					id: "7B2F451346BD801B"
+					type: "item"
+					item: "firmalife:nutritive_basin"
+				}
+			]
+		}
+		{
+			x: -7.5d
+			y: -0.5d
+			dependencies: ["7F16944F018EDC36"]
+			id: "2DA0EEDC30567820"
+			tasks: [
+				{
+					id: "012B9CC2BB5BFE7C"
+					type: "item"
+					title: "Any #firmalife:food_shelves"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "firmalife:food_shelves"
+						}
+					}
+				}
+				{
+					id: "0CA2212F0EE92E21"
+					type: "item"
+					title: "Any #firmalife:hangers"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "firmalife:hangers"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -8.0d
+			y: 1.5d
+			dependencies: ["0A1CA8F70785583A"]
+			id: "5280D4F2934795AD"
+			tasks: [
+				{
+					id: "0B747C0BB7CA7FD7"
+					type: "item"
+					item: "firmalife:iron_greenhouse_wall"
+				}
+				{
+					id: "4ACB1B21986FB7B8"
+					type: "item"
+					item: "firmalife:iron_greenhouse_roof"
+				}
+				{
+					id: "6A8F4C3FB4F766F9"
+					type: "item"
+					item: "firmalife:iron_greenhouse_roof_top"
+				}
+				{
+					id: "51AFB9489FB2719D"
+					type: "item"
+					item: "firmalife:iron_greenhouse_door"
+				}
+			]
+		}
+		{
+			x: -5.5d
+			y: 3.0d
+			dependencies: ["44E7DAF0653CE007"]
+			id: "351721274E6ED88C"
+			tasks: [
+				{
+					id: "3D1FFA0CA104C598"
+					type: "item"
+					item: "firmalife:stainless_steel_greenhouse_wall"
+				}
+				{
+					id: "1FA4CD47BFE0EF3F"
+					type: "item"
+					item: "firmalife:stainless_steel_greenhouse_roof"
+				}
+				{
+					id: "263925C036096DC1"
+					type: "item"
+					item: "firmalife:stainless_steel_greenhouse_roof_top"
+				}
+				{
+					id: "373BA485CD61E830"
+					type: "item"
+					item: "firmalife:stainless_steel_greenhouse_door"
+				}
+			]
+		}
+		{
+			x: -9.5d
+			y: -0.5d
+			dependencies: ["7F16944F018EDC36"]
+			id: "08165307BB7A4CF1"
+			tasks: [{
+				id: "25E77074C35AD6DA"
+				type: "item"
+				item: "firmalife:quad_planter"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 0.25d
+			shape: "gear"
+			id: "6A9948283530692B"
+			tasks: [{
+				id: "2074894B90508193"
+				type: "item"
+				item: "firmalife:drying_mat"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 1.75d
+			dependencies: ["6A9948283530692B"]
+			id: "53610F45D6BA48A8"
+			tasks: [{
+				id: "2A33AA897A4FD1B6"
+				type: "item"
+				item: "firmalife:solar_drier"
+			}]
+		}
+		{
+			x: -3.75d
+			y: -6.75d
+			shape: "gear"
+			size: 1.5d
+			id: "2CA20397B84563E7"
+			tasks: [{
+				id: "39F438ACA9AB40AC"
+				type: "item"
+				item: "tfc:fire_clay"
+			}]
+		}
+		{
+			x: -4.0d
+			y: -4.5d
+			dependencies: ["2CA20397B84563E7"]
+			id: "5BAF2AD54ED15772"
+			tasks: [
+				{
+					id: "4487D1CD651253AE"
+					type: "item"
+					item: "firmalife:oven_top"
+				}
+				{
+					id: "4EF73C0B587EBF0C"
+					type: "item"
+					item: "firmalife:oven_bottom"
+				}
+				{
+					id: "2DBCE98F46D58626"
+					type: "item"
+					item: "firmalife:oven_chimney"
+				}
+				{
+					id: "3B357798A6AEBB83"
+					type: "item"
+					item: "firmalife:peel"
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: -3.0d
+			dependencies: ["5BAF2AD54ED15772"]
+			id: "603C379B927B2B39"
+			tasks: [
+				{
+					id: "7D21C093AE6097DA"
+					type: "item"
+					item: "firmalife:oven_hopper"
+				}
+				{
+					id: "6D9DE96F74319EE9"
+					type: "item"
+					item: "firmalife:ashtray"
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: -1.5d
+			shape: "rsquare"
+			dependencies: [
+				"603C379B927B2B39"
+				"6A9948283530692B"
+			]
+			id: "6FB8D09ACCFA44A6"
+			tasks: [{
+				id: "12983C135157A59B"
+				type: "item"
+				title: "Any #tfc:foods/breads"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "tfc:foods/breads"
+					}
+				}
+			}]
+		}
+		{
+			x: -8.5d
+			y: -5.0d
+			dependencies: ["727C76C63052B8FA"]
+			id: "20A1227A1D4914DD"
+			tasks: [{
+				id: "221E3FBAC9511FF5"
+				type: "item"
+				item: "firmalife:beeswax"
+			}]
+		}
+		{
+			x: -11.0d
+			y: -2.5d
+			id: "47F1D67BFE9C6DBF"
+			tasks: [{
+				id: "3AAE2CF226CB70B5"
+				type: "item"
+				item: "beekeeping:apiary"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -1.5d
+			description: ["Soup and Sadwiches are the best way to get proper nutrition, and along with that, health.  You will need the health in the nether for sure, tfc damage is different, and blazes hit like trains"]
+			dependencies: ["78048E42DF16869A"]
+			id: "6AE843771BF768B5"
+			tasks: [
+				{
+					id: "1D737586E23D7C3E"
+					type: "item"
+					title: "Any #tfc:soups"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "tfc:soups"
+						}
+					}
+				}
+				{
+					id: "45062742EBABDB39"
+					type: "item"
+					title: "Any #tfc:sandwiches"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "tfc:sandwiches"
+						}
+					}
+				}
+				{
+					id: "0FB46E242E964494"
+					type: "item"
+					title: "Any #tfc:salads"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "tfc:salads"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: -3.0d
+			dependencies: ["5BAF2AD54ED15772"]
+			id: "78048E42DF16869A"
+			tasks: [{
+				id: "66668C3E2BF06D1A"
+				type: "item"
+				item: "tfc:ceramic/pot"
+			}]
+		}
+		{
+			x: -6.0d
+			y: -1.5d
+			dependencies: ["603C379B927B2B39"]
+			id: "42BA319F6316A641"
+			tasks: [{
+				id: "243AD49B2CE21088"
+				type: "item"
+				item: "firmalife:vat"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -3.0d
+			id: "30753F14A1863068"
+			tasks: [{
+				id: "72A006186D1C3057"
+				type: "item"
+				item: "minecraft:milk_bucket"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 0.5d
+			shape: "hexagon"
+			dependencies: ["2451DB9CB0D928F0"]
+			min_required_tasks: 1
+			id: "5BA39F6ED56550A2"
+			tasks: [
+				{
+					id: "709160246E14B1A5"
+					type: "item"
+					item: {
+						id: "firmalife:food/milk_curd"
+						Count: 1b
+						ForgeCaps: {
+							"tfc:food": {
+								traits: [ ]
+								creationDate: 4380000L
+							}
+						}
+					}
+				}
+				{
+					id: "42A5B3039761A027"
+					type: "item"
+					item: {
+						id: "firmalife:food/goat_curd"
+						Count: 1b
+						ForgeCaps: {
+							"tfc:food": {
+								traits: [ ]
+								creationDate: 4392000L
+							}
+						}
+					}
+				}
+				{
+					id: "7A91A3937DC7B6E9"
+					type: "item"
+					item: {
+						id: "firmalife:food/yak_curd"
+						Count: 1b
+						ForgeCaps: {
+							"tfc:food": {
+								traits: [ ]
+								creationDate: 4392000L
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 2.5d
+			dependencies: ["5BA39F6ED56550A2"]
+			id: "42CFE9CB9245E103"
+			tasks: [{
+				id: "5D78A37986F490AA"
+				type: "item"
+				item: "firmalife:cheddar_wheel"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 0.5d
+			dependencies: ["5BA39F6ED56550A2"]
+			id: "000C518B651BA1A0"
+			tasks: [{
+				id: "1D030A4B9869DC5F"
+				type: "item"
+				item: "firmalife:chevre_wheel"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 1.5d
+			dependencies: ["5BA39F6ED56550A2"]
+			id: "2CD81B9A63BEE8DC"
+			tasks: [{
+				id: "09F2E94ED2B2CDC4"
+				type: "item"
+				item: "firmalife:rajya_metok_wheel"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 2.5d
+			dependencies: ["5BA39F6ED56550A2"]
+			id: "28AEB644AB17EAF5"
+			tasks: [{
+				id: "2A0F473CCF30D22E"
+				type: "item"
+				item: "firmalife:gouda_wheel"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 0.5d
+			dependencies: ["5BA39F6ED56550A2"]
+			id: "7D1550624AE02B89"
+			tasks: [{
+				id: "3A27DAAAEBCFACAA"
+				type: "item"
+				item: "firmalife:feta_wheel"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 1.5d
+			dependencies: ["5BA39F6ED56550A2"]
+			id: "05E5B26BB86AC05D"
+			tasks: [{
+				id: "32D7A8C67366299C"
+				type: "item"
+				item: "firmalife:shosha_wheel"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 3.5d
+			dependencies: ["5BA39F6ED56550A2"]
+			id: "0E9792ED8EF8A0B2"
+			tasks: [{
+				id: "46F939EB8530E000"
+				type: "item"
+				item: {
+					id: "firmalife:food/shredded_cheese"
+					Count: 1b
+					ForgeCaps: {
+						"tfc:food": {
+							traits: [ ]
+							creationDate: 4356000L
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: -1.0d
+			dependencies: ["30753F14A1863068"]
+			id: "2451DB9CB0D928F0"
+			tasks: [{
+				id: "379338099F1EBF19"
+				type: "item"
+				item: "firmalife:cheesecloth"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

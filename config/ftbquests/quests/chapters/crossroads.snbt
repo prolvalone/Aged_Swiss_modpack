@@ -1,0 +1,11 @@
+{
+	id: "7C88DEE0853E9035"
+	group: "57B9D415D17C76EC"
+	order_index: 3
+	filename: "crossroads"
+	title: "Crossroads"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+	quest_links: [ ]
+}

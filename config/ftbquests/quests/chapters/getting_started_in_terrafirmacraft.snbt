@@ -1,0 +1,324 @@
+{
+	id: "087B85035510BB63"
+	group: "748EF2F3A4658B2B"
+	order_index: 1
+	filename: "getting_started_in_terrafirmacraft"
+	title: "Getting Started In TFC"
+	icon: "tfc:wood/log/douglas_fir"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Loose Rocks"
+			x: 1.5d
+			y: -5.5d
+			shape: "square"
+			id: "5423ABB002ABDBDB"
+			tasks: [
+				{
+					id: "49B77EEF4BD200D2"
+					type: "item"
+					title: "Any #tfc:rock_knapping"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "tfc:rock_knapping"
+						}
+					}
+				}
+				{
+					id: "276A9C54E2F24E40"
+					type: "item"
+					title: "Any #tfc:twigs"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "tfc:twigs"
+						}
+					}
+				}
+				{
+					id: "6986A1EF28A01A99"
+					type: "item"
+					item: {
+						id: "minecraft:stick"
+						Count: 1b
+						ForgeCaps: {
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "68ECB92222669504"
+				type: "item"
+				item: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "tfc:field_guide"
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: -4.0d
+			dependencies: ["5423ABB002ABDBDB"]
+			id: "041E4D7C3BA36C25"
+			tasks: [
+				{
+					id: "5E09052FEC041D3C"
+					type: "item"
+					title: "Any #tfc:inefficient_logging_axes"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "tfc:inefficient_logging_axes"
+						}
+					}
+				}
+				{
+					id: "737E59D94BE40549"
+					type: "item"
+					title: "Any #tfc:knives"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "tfc:knives"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: -4.0d
+			dependencies: ["5423ABB002ABDBDB"]
+			id: "78229B1FF3860E3F"
+			tasks: [{
+				id: "1C2E42BE8C3E595A"
+				type: "item"
+				item: {
+					id: "tfc:firestarter"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: -2.0d
+			dependencies: ["041E4D7C3BA36C25"]
+			id: "7D97440A73DD0545"
+			tasks: [
+				{
+					id: "347A93734167F85C"
+					type: "item"
+					item: "tfc:straw"
+				}
+				{
+					id: "3CE3808DBE718988"
+					type: "item"
+					title: "Any #tfc:firepit_logs"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "tfc:firepit_logs"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 8.0d
+			y: -6.0d
+			shape: "square"
+			description: ["The most OP material of all time"]
+			id: "0D5AB45F1BBAD564"
+			tasks: [{
+				id: "761BAAC8FBA19AA7"
+				type: "item"
+				item: "minecraft:clay_ball"
+			}]
+		}
+		{
+			x: 6.5d
+			y: -4.0d
+			dependencies: ["0D5AB45F1BBAD564"]
+			id: "4C9E6492A5B2DBF0"
+			tasks: [{
+				id: "554BD87DE99858FA"
+				type: "item"
+				item: {
+					id: "tfc:ceramic/unfired_ingot_mold"
+					Count: 1b
+					ForgeCaps: {
+						"tfc:item_heat": {
+							heat: 0.0f
+							ticks: 0L
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 6.5d
+			y: -2.0d
+			shape: "gear"
+			dependencies: [
+				"4C9E6492A5B2DBF0"
+				"6796CF0ED9C27C60"
+			]
+			id: "3A61EE72EB86F752"
+			tasks: [{
+				id: "5B3AE1559503ED72"
+				type: "item"
+				item: {
+					id: "tfc:ceramic/ingot_mold"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						Parent: {
+							heat: 0.0f
+							ticks: 0L
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 10.0d
+			y: -2.0d
+			dependencies: ["0D5AB45F1BBAD564"]
+			id: "1D0537C38CD9D39C"
+			tasks: [
+				{
+					id: "6BFCEB3459EBB9E2"
+					type: "item"
+					item: {
+						id: "tfc:ceramic/unfired_jug"
+						Count: 1b
+						ForgeCaps: {
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+					}
+				}
+				{
+					id: "6EEA7C044B6D0E94"
+					type: "item"
+					title: "Any #tfc:unfired_vessels"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "tfc:unfired_vessels"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: -2.0d
+			description: ["Press 'V' to put items in a hole in the ground.  * thatch follwoed by 8 logs (stick bundles work as well) and light it on fire"]
+			dependencies: [
+				"7D97440A73DD0545"
+				"78229B1FF3860E3F"
+			]
+			id: "6796CF0ED9C27C60"
+			tasks: [{
+				id: "51976B511CEC142D"
+				type: "checkmark"
+				title: "Pit Kiln"
+			}]
+		}
+		{
+			x: 6.5d
+			y: -0.5d
+			dependencies: ["3A61EE72EB86F752"]
+			id: "14C4D6AE411EE29B"
+			tasks: [{
+				id: "0B270BCD3C83E5FD"
+				type: "item"
+				item: {
+					id: "tfc:ceramic/pickaxe_head_mold"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						Parent: {
+							heat: 0.0f
+							ticks: 0L
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 8.0d
+			y: 0.5d
+			shape: "rsquare"
+			dependencies: [
+				"1D0537C38CD9D39C"
+				"14C4D6AE411EE29B"
+			]
+			id: "635FC492ABAB7A7D"
+			tasks: [{
+				id: "31E18BB17E85F31A"
+				type: "item"
+				item: {
+					id: "tfc:metal/pickaxe_head/copper"
+					Count: 1b
+					ForgeCaps: {
+						"tfc:item_heat": {
+							heat: 0.0f
+							ticks: 0L
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 3.0d
+			y: 0.0d
+			description: ["Charcoal Pits are a pain in the butt"]
+			dependencies: ["6796CF0ED9C27C60"]
+			id: "0F8E088FB1F0E3D2"
+			tasks: [{
+				id: "23EBD4E8DCE8798A"
+				type: "item"
+				item: "minecraft:charcoal"
+			}]
+		}
+		{
+			title: "Forge"
+			x: 4.0d
+			y: 1.5d
+			shape: "rsquare"
+			dependencies: ["0F8E088FB1F0E3D2"]
+			id: "55CF57064E157F05"
+			tasks: [{
+				id: "4C6680163AA06B77"
+				type: "observation"
+				icon: "thermal:charcoal_block"
+				timer: 0L
+				observe_type: 2
+				to_observe: "tfc:charcoal_forge"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

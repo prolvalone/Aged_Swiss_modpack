@@ -1,0 +1,372 @@
+{
+	id: "6776379B4AA7F33F"
+	group: ""
+	order_index: 0
+	filename: "bosses"
+	title: "Bosses"
+	icon: "avaritia:infinity_sword"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -7.5d
+			y: -4.0d
+			id: "2D37DCB43E95058C"
+			tasks: [{
+				id: "4A49963484BF098F"
+				type: "kill"
+				title: "Wither"
+				icon: "minecraft:wither_skeleton_skull"
+				entity: "minecraft:wither"
+				value: 1L
+			}]
+		}
+		{
+			icon: "minecraft:nether_gold_ore"
+			x: -7.0d
+			y: -5.5d
+			id: "3C30CB063DE6F876"
+			tasks: [{
+				id: "318973125C452BFF"
+				type: "dimension"
+				dimension: "minecraft:the_nether"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -4.0d
+			id: "4684E2F481229F5C"
+			tasks: [{
+				id: "7CD151D2192DA4CB"
+				type: "kill"
+				title: "Ender Dragon"
+				icon: "minecraft:dragon_head"
+				entity: "minecraft:ender_dragon"
+				value: 1L
+			}]
+		}
+		{
+			icon: "minecraft:end_portal_frame"
+			x: -2.5d
+			y: -5.5d
+			id: "50EA6EFD20372BBA"
+			tasks: [{
+				id: "45F8D53625347385"
+				type: "dimension"
+				dimension: "minecraft:the_end"
+			}]
+		}
+		{
+			title: "Netherite Monstrosity"
+			x: -6.5d
+			y: -3.0d
+			id: "59963D608AE7C001"
+			tasks: [{
+				id: "3D5A22877ED1235A"
+				type: "kill"
+				icon: {
+					id: "cataclysm:monstrous_helm"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				entity: "cataclysm:netherite_monstrosity"
+				value: 1L
+			}]
+		}
+		{
+			x: -7.5d
+			y: -3.0d
+			id: "4590F436FB6F4763"
+			tasks: [{
+				id: "1E770205BC533FB7"
+				type: "kill"
+				title: "Ignis"
+				icon: {
+					id: "cataclysm:ignitium_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				entity: "cataclysm:ignis"
+				value: 1L
+			}]
+		}
+		{
+			x: -3.0d
+			y: -3.0d
+			id: "1B2352B6DF31346E"
+			tasks: [{
+				id: "24CE1B9BEE50BB15"
+				type: "kill"
+				title: "Ender Golem"
+				icon: "cataclysm:void_stone"
+				entity: "cataclysm:ender_golem"
+				value: 1L
+			}]
+		}
+		{
+			x: -2.0d
+			y: -3.0d
+			id: "5E63E9AB15EBFE4E"
+			tasks: [{
+				id: "3C8A2A93F7360E1F"
+				type: "kill"
+				title: "Ender Guardian"
+				icon: "cataclysm:gauntlet_of_guard"
+				entity: "cataclysm:ender_guardian"
+				value: 1L
+			}]
+		}
+		{
+			x: -2.0d
+			y: -4.0d
+			id: "6A4A37CD8B588D2F"
+			tasks: [{
+				id: "5DFB4119BFF516AA"
+				type: "kill"
+				title: "Chaos Guardian"
+				icon: "draconicadditions:chaos_heart"
+				entity: "draconicevolution:draconic_guardian"
+				value: 1L
+			}]
+		}
+		{
+			icon: "minecraft:glowstone"
+			x: -7.0d
+			y: -0.5d
+			id: "2227BFEF3A4A20ED"
+			tasks: [{
+				id: "4730D246208D1646"
+				type: "dimension"
+				dimension: "aerialhell:aerial_hell"
+			}]
+		}
+		{
+			title: "Mud Cycle Mage"
+			icon: "aerialhell:cursed_totem"
+			x: -7.5d
+			y: 1.0d
+			id: "6F4F7BB1F82A83C2"
+			tasks: [{
+				id: "3A0EFCDBBB0007A7"
+				type: "kill"
+				entity: "aerialhell:mud_cycle_mage"
+				value: 1L
+			}]
+		}
+		{
+			x: -6.5d
+			y: 1.0d
+			id: "55568CE7FE7CDFDC"
+			tasks: [{
+				id: "5FDD20CD82F973BD"
+				type: "kill"
+				title: "Lilith"
+				icon: "aerialhell:shadow_totem"
+				entity: "aerialhell:lilith"
+				value: 1L
+			}]
+		}
+		{
+			x: -7.5d
+			y: 2.0d
+			id: "3AAD7CBEDF352B81"
+			tasks: [{
+				id: "702AF12C7FD062E5"
+				type: "kill"
+				title: "Lunar Priest"
+				icon: "aerialhell:agility_totem"
+				entity: "aerialhell:lunatic_priest"
+				value: 1L
+			}]
+		}
+		{
+			x: -6.5d
+			y: 2.0d
+			id: "35EA7AB6C6F12FC2"
+			tasks: [{
+				id: "4095B3F29B4D1FB5"
+				type: "kill"
+				title: "Chained God"
+				icon: "aerialhell:god_totem"
+				entity: "aerialhell:chained_god"
+				value: 1L
+			}]
+		}
+		{
+			icon: "minecraft:grass_block"
+			x: 1.0d
+			y: -5.5d
+			id: "451285E471311136"
+			tasks: [{
+				id: "03E2A3D90D949EA3"
+				type: "dimension"
+				icon: "minecraft:grass_block"
+				dimension: "minecraft:overworld"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -4.0d
+			id: "5AC2C923997A22CC"
+			tasks: [{
+				id: "1890A684732B3C95"
+				type: "kill"
+				title: "Barako"
+				icon: "mowziesmobs:barako_mask"
+				entity: "mowziesmobs:barako"
+				value: 1L
+			}]
+		}
+		{
+			x: 1.5d
+			y: -4.0d
+			id: "6B6D8235F844C055"
+			tasks: [{
+				id: "59B0FFDA30475FEF"
+				type: "kill"
+				title: "Frostmaw"
+				icon: {
+					id: "mowziesmobs:ice_crystal"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				entity: "mowziesmobs:frostmaw"
+				value: 1L
+			}]
+		}
+		{
+			x: 0.5d
+			y: -3.0d
+			id: "7743AB937ADA9C94"
+			tasks: [{
+				id: "378D3289E9C4D4F7"
+				type: "kill"
+				title: "Ferrous Wroughtnaut"
+				icon: "mowziesmobs:wrought_helmet"
+				entity: "mowziesmobs:ferrous_wroughtnaut"
+				value: 1L
+			}]
+		}
+		{
+			x: -2.5d
+			y: -0.5d
+			id: "463EDC92E7011E3E"
+			tasks: [{
+				id: "2B25E4F296F49002"
+				type: "dimension"
+				title: "EverBright"
+				icon: "blue_skies:everbright_portal"
+				dimension: "blue_skies:everbright"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -0.5d
+			id: "62AF5E9FC2DB2055"
+			tasks: [{
+				id: "36B43530F51773CA"
+				type: "dimension"
+				title: "EverDawn"
+				icon: "blue_skies:everdawn_portal"
+				dimension: "blue_skies:everdawn"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 1.0d
+			id: "5265FB317C49C2EC"
+			tasks: [{
+				id: "20A64F661B9C89BE"
+				type: "kill"
+				title: "Summoner"
+				icon: "blue_skies:summoning_table"
+				entity: "blue_skies:summoner"
+				value: 1L
+			}]
+		}
+		{
+			x: -2.0d
+			y: 1.0d
+			id: "58648895B4CEFF1F"
+			tasks: [{
+				id: "10DCECB4A341C39A"
+				type: "kill"
+				title: "Starlit Crusher"
+				icon: "blue_skies:glowing_nature_stone"
+				entity: "blue_skies:starlit_crusher"
+				value: 1L
+			}]
+		}
+		{
+			x: 1.5d
+			y: 1.0d
+			id: "18A78C18A319AB68"
+			tasks: [{
+				id: "09F1C3128F11137B"
+				type: "kill"
+				title: "Arachnarch"
+				icon: "blue_skies:glowing_poison_stone"
+				entity: "blue_skies:arachnarch"
+				value: 1L
+			}]
+		}
+		{
+			x: 0.5d
+			y: 1.0d
+			id: "4E079B7F9392DC80"
+			tasks: [{
+				id: "736EE8974E6461CE"
+				type: "kill"
+				title: "Alchemist"
+				icon: "blue_skies:alchemy_table"
+				entity: "blue_skies:alchemist"
+				value: 1L
+			}]
+		}
+		{
+			x: 1.5d
+			y: -3.0d
+			id: "1E191826676BD21E"
+			tasks: [{
+				id: "22B2606706953C25"
+				type: "kill"
+				title: "Grim Reaper"
+				icon: {
+					id: "mca:scythe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				entity: "mca:grim_reaper"
+				value: 1L
+			}]
+		}
+		{
+			x: -6.5d
+			y: -4.0d
+			id: "70E16CA91BF89985"
+			tasks: [{
+				id: "1008CAC7571A39F2"
+				type: "kill"
+				title: "The Unburned"
+				icon: {
+					id: "pyromancer:schmelzstern"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				entity: "pyromancer:unburned"
+				value: 1L
+			}]
+		}
+	]
+	quest_links: [ ]
+}

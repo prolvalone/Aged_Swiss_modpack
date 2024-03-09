@@ -1,0 +1,16 @@
+{
+	id: "0EF788989CA58A89"
+	group: "1C1AD6786E210272"
+	order_index: 1
+	filename: "tier_34_rockets"
+	title: "Tier 3-4 Rockets"
+	icon: {
+		id: "beyond_earth:rocket_t4"
+		Count: 1b
+		tag: { }
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+	quest_links: [ ]
+}

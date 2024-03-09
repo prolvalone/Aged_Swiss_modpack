@@ -1,0 +1,134 @@
+{
+	id: "728AD9B9711D8D59"
+	group: "6679A6AFB45AA899"
+	order_index: 2
+	filename: "immersive_petroleum"
+	title: "Oil Refinement"
+	icon: "immersivepetroleum:pumpjack"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -2.5d
+			y: -3.5d
+			dependencies: ["07AE435B8682CFD8"]
+			id: "7ED5F5EFC10D13DC"
+			tasks: [{
+				id: "0B5977204381034F"
+				type: "observation"
+				icon: "immersivepetroleum:pumpjack"
+				timer: 0L
+				observe_type: 0
+				to_observe: "immersivepetroleum:pumpjack"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -6.5d
+			shape: "gear"
+			size: 1.3d
+			id: "6C040AC2209BF16E"
+			tasks: [{
+				id: "260D24017AE13EED"
+				type: "item"
+				item: "immersivepetroleum:seismic_survey"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -5.0d
+			dependencies: ["6C040AC2209BF16E"]
+			id: "07AE435B8682CFD8"
+			tasks: [{
+				id: "1571DB61E2705B6B"
+				type: "observation"
+				icon: "immersivepetroleum:derrick"
+				timer: 0L
+				observe_type: 0
+				to_observe: "immersivepetroleum:derrick"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -2.0d
+			dependencies: ["7ED5F5EFC10D13DC"]
+			id: "4FC9ED105DBEBD57"
+			tasks: [{
+				id: "0385775A3836F2CD"
+				type: "observation"
+				icon: "immersivepetroleum:distillation_tower"
+				timer: 0L
+				observe_type: 0
+				to_observe: "immersivepetroleum:distillation_tower"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 1.0d
+			dependencies: ["50AD9462D78B2AAE"]
+			id: "618C1B764462BA57"
+			tasks: [{
+				id: "151310EEF641ABE6"
+				type: "observation"
+				icon: "immersivepetroleum:coker_unit"
+				timer: 0L
+				observe_type: 0
+				to_observe: "immersivepetroleum:coker_unit"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -2.0d
+			dependencies: ["7ED5F5EFC10D13DC"]
+			id: "10F200F87D51C075"
+			tasks: [{
+				id: "7C178F43467CA4B1"
+				type: "observation"
+				icon: "immersivepetroleum:oiltank"
+				timer: 0L
+				observe_type: 0
+				to_observe: "immersivepetroleum:oiltank"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -0.5d
+			dependencies: ["4FC9ED105DBEBD57"]
+			id: "50AD9462D78B2AAE"
+			tasks: [{
+				id: "71A7E9B79F4470B5"
+				type: "observation"
+				icon: "immersivepetroleum:hydrotreater"
+				timer: 0L
+				observe_type: 0
+				to_observe: "immersivepetroleum:hydrotreater"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 1.0d
+			dependencies: ["50AD9462D78B2AAE"]
+			id: "060D8B5127FACC18"
+			tasks: [{
+				id: "3414DC01B593B53D"
+				type: "observation"
+				icon: "immersiveengineering:diesel_generator"
+				timer: 0L
+				observe_type: 0
+				to_observe: "immersiveengineering:diesel_generator"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 2.5d
+			dependencies: ["618C1B764462BA57"]
+			id: "37E3952FACF1DB4D"
+			tasks: [{
+				id: "106838183983FFBA"
+				type: "item"
+				item: "beyond_earth:fuel_bucket"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

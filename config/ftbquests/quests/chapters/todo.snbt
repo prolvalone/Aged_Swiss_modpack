@@ -1,0 +1,87 @@
+{
+	id: "19F2162467E2A964"
+	group: ""
+	order_index: 1
+	filename: "todo"
+	title: "todo"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -1.5d
+			y: -3.0d
+			id: "7BD12260A69C06F5"
+			tasks: [{
+				id: "0DDC16E1529EB63E"
+				type: "item"
+				item: "minecraft:bucket"
+			}]
+		}
+		{
+			x: -3.5d
+			y: -4.0d
+			id: "1AF1AEEA5C77FDDE"
+			tasks: [
+				{
+					id: "364F06AF652C3C7E"
+					type: "item"
+					item: {
+						id: "tfc_ie_addon:ore/rich_aluminum"
+						Count: 1b
+						ForgeCaps: {
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+					}
+				}
+				{
+					id: "314C5725B6BE2627"
+					type: "item"
+					item: {
+						id: "tfc_ie_addon:ore/normal_uranium"
+						Count: 1b
+						ForgeCaps: {
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+					}
+				}
+				{
+					id: "47D4205319F9475D"
+					type: "item"
+					item: {
+						id: "tfc_ie_addon:ore/normal_lead"
+						Count: 1b
+						ForgeCaps: {
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: -5.0d
+			id: "577D1E6746883E56"
+			tasks: [{
+				id: "1E5619BCE5667C59"
+				type: "item"
+				item: {
+					id: "minecraft:wooden_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+	]
+	quest_links: [ ]
+}

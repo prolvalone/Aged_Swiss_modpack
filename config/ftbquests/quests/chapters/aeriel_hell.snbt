@@ -1,0 +1,12 @@
+{
+	id: "40B5534AA4F454A0"
+	group: "6679A6AFB45AA899"
+	order_index: 0
+	filename: "aeriel_hell"
+	title: "Bootleg Aether"
+	icon: "minecraft:glowstone"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+	quest_links: [ ]
+}

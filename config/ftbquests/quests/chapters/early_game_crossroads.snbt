@@ -1,0 +1,210 @@
+{
+	id: "56013DAC045336BF"
+	group: "138BF01B1E95BD7A"
+	order_index: 0
+	filename: "early_game_crossroads"
+	title: "Starting Crossroads"
+	icon: "create:steam_engine"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -6.500000000000001d
+			y: -5.8500000000000005d
+			shape: "gear"
+			dependencies: ["2C36E0F5C228481C"]
+			size: 1.3d
+			id: "2169B6AE6AD42953"
+			tasks: [{
+				id: "1336DE378C09F034"
+				type: "item"
+				item: "crossroads:firebox"
+			}]
+			rewards: [{
+				id: "7F10ECD894AB4B85"
+				type: "item"
+				item: {
+					id: "essentials:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "essentials:manual"
+					}
+				}
+			}]
+		}
+		{
+			x: -5.5d
+			y: -4.0d
+			dependencies: ["2169B6AE6AD42953"]
+			id: "0BB493259C2D4963"
+			tasks: [{
+				id: "2E51AFEF03B26A89"
+				type: "item"
+				item: "crossroads:heat_cable_ceramic"
+			}]
+		}
+		{
+			x: -5.5d
+			y: -2.5d
+			dependencies: ["0BB493259C2D4963"]
+			id: "76C29921BD66D1D8"
+			tasks: [{
+				id: "319360101FEF8C43"
+				type: "item"
+				item: "crossroads:heating_chamber"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -4.0d
+			dependencies: ["0D6EB391765B0D16"]
+			id: "50B7219A16D77375"
+			tasks: [{
+				id: "0D9D08D1FDB0846F"
+				type: "item"
+				item: "crossroads:fluid_cooling_chamber"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -2.5d
+			dependencies: ["50B7219A16D77375"]
+			id: "456262E577E15FAC"
+			tasks: [
+				{
+					id: "7099F198C23AE317"
+					type: "item"
+					item: "minecraft:ice"
+				}
+				{
+					id: "3E8D7F57343AC526"
+					type: "item"
+					item: "minecraft:packed_ice"
+				}
+				{
+					id: "089B9E82EEC87A82"
+					type: "item"
+					item: "minecraft:blue_ice"
+				}
+			]
+		}
+		{
+			x: -3.2500000000000004d
+			y: -5.8500000000000005d
+			shape: "gear"
+			dependencies: ["2C36E0F5C228481C"]
+			size: 1.3d
+			id: "0D6EB391765B0D16"
+			tasks: [{
+				id: "1A2EA34F96C78E5C"
+				type: "item"
+				item: "crossroads:icebox"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -1.0d
+			dependencies: ["456262E577E15FAC"]
+			id: "4D7C171ED27F41F3"
+			tasks: [{
+				id: "2CA0FC2D26432139"
+				type: "item"
+				item: "crossroads:heat_cable_ice"
+			}]
+		}
+		{
+			x: -5.5d
+			y: -1.0d
+			dependencies: ["76C29921BD66D1D8"]
+			id: "41305DCA16629F28"
+			tasks: [{
+				id: "1300CF14D90FBA3E"
+				type: "item"
+				item: "crossroads:steam_boiler"
+			}]
+		}
+		{
+			x: -7.0d
+			y: -1.0d
+			dependencies: ["76C29921BD66D1D8"]
+			id: "29FDF2BD3E670EA1"
+			tasks: [{
+				id: "2FFF82012D3D8A97"
+				type: "item"
+				item: "crossroads:heat_sink"
+			}]
+		}
+		{
+			x: -6.5d
+			y: 0.5d
+			dependencies: ["41305DCA16629F28"]
+			id: "78FE52C81B11C66E"
+			tasks: [{
+				id: "61BBFBEF314D36FF"
+				type: "item"
+				item: "crossroads:radiator"
+			}]
+		}
+		{
+			x: -5.0d
+			y: 0.5d
+			dependencies: ["41305DCA16629F28"]
+			id: "4A30589CCED38A26"
+			tasks: [{
+				id: "39DA3C74B86B27E1"
+				type: "item"
+				item: "crossroads:steam_turbine"
+			}]
+		}
+		{
+			x: -6.5d
+			y: 2.0d
+			dependencies: ["78FE52C81B11C66E"]
+			id: "5A4762D36A8E9F06"
+			tasks: [
+				{
+					id: "10209A57EBDE9677"
+					type: "item"
+					item: "crossroads:distilled_water_bucket"
+				}
+				{
+					id: "35EA745C31961B0B"
+					type: "item"
+					title: "Any #forge:dusts/salt"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:dusts/salt"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -7.0d
+			y: -3.0d
+			dependencies: ["0BB493259C2D4963"]
+			id: "78A2DDCE66422643"
+			tasks: [{
+				id: "2F13F3F9BC4E2947"
+				type: "item"
+				item: "crossroads:heating_crucible"
+			}]
+		}
+		{
+			x: -6.5d
+			y: 3.5d
+			shape: "rsquare"
+			dependencies: ["5A4762D36A8E9F06"]
+			size: 1.3d
+			id: "14C931FE248F4986"
+			tasks: [{
+				id: "06533EF9EAF0D415"
+				type: "item"
+				item: "create:steam_engine"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

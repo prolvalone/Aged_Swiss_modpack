@@ -1,0 +1,380 @@
+{
+	id: "654E74F5064D7F98"
+	group: "7C1BA70F4F0940AF"
+	order_index: 0
+	filename: "copper"
+	title: "Copper and Bronze Ages"
+	icon: "minecraft:raw_copper"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: -6.5d
+			shape: "square"
+			dependencies: ["31E18BB17E85F31A"]
+			id: "73A8AEDEB34C7FB0"
+			tasks: [{
+				id: "0820CB744F407CEF"
+				type: "item"
+				item: {
+					id: "tfc:metal/pickaxe/copper"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"tfc:item_heat": {
+							heat: 0.0f
+							ticks: 0L
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: -3.0d
+			dependencies: ["2C137ECCC8DE43DA"]
+			id: "2CB23005EC2DF3E0"
+			tasks: [{
+				id: "22E08D374B003667"
+				type: "observation"
+				title: "Rock anvil"
+				icon: "tfc:rock/anvil/granite"
+				timer: 0L
+				observe_type: 1
+				to_observe: "tfc:rock_anvils"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -1.5d
+			dependencies: [
+				"2CB23005EC2DF3E0"
+				"37F061A5591B7B9D"
+			]
+			id: "0D803DFBA0B62441"
+			tasks: [{
+				id: "0D1270DC1B611E6B"
+				type: "item"
+				item: {
+					id: "tfc:metal/double_ingot/copper"
+					Count: 1b
+					ForgeCaps: {
+						"tfc:item_heat": {
+							heat: 0.0f
+							ticks: 0L
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 4.5d
+			y: 0.0d
+			dependencies: ["0D803DFBA0B62441"]
+			id: "14812300F2A1B12E"
+			tasks: [{
+				id: "10DB4C80FD1514D3"
+				type: "item"
+				item: {
+					id: "tfc:metal/anvil/copper"
+					Count: 1b
+					ForgeCaps: {
+						"tfc:item_heat": {
+							heat: 0.0f
+							ticks: 0L
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -1.5d
+			y: -5.5d
+			shape: "rsquare"
+			description: ["There are additional, more specific Prospecting picks available as well.  "]
+			dependencies: ["73A8AEDEB34C7FB0"]
+			id: "729A573831758D6C"
+			tasks: [{
+				id: "7B8E648E2B60831B"
+				type: "item"
+				item: {
+					id: "tfc:metal/propick/copper"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"tfc:item_heat": {
+							heat: 0.0f
+							ticks: 0L
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 6.0d
+			y: 1.5d
+			dependencies: ["14812300F2A1B12E"]
+			id: "23AD8152D2DFD0FA"
+			tasks: [{
+				id: "3553074617051F44"
+				type: "item"
+				title: "Any #tfc:bronze_anvils"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "tfc:bronze_anvils"
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: -4.5d
+			dependencies: ["73A8AEDEB34C7FB0"]
+			id: "2C137ECCC8DE43DA"
+			tasks: [{
+				id: "132904E55577A10B"
+				type: "item"
+				title: "Any #forge:stone"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:stone"
+					}
+				}
+			}]
+		}
+		{
+			x: -1.0d
+			y: -3.0d
+			dependencies: ["2C137ECCC8DE43DA"]
+			id: "779DC093FE1AF061"
+			tasks: [
+				{
+					id: "1ED516771A405E2D"
+					type: "item"
+					item: "tfc:quern"
+				}
+				{
+					id: "762A67C8F03548EC"
+					type: "item"
+					item: {
+						id: "tfc:handstone"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -1.5d
+			description: ["and you thought regular clay was valuable...  "]
+			dependencies: ["779DC093FE1AF061"]
+			id: "52C614D22DCFAC41"
+			tasks: [{
+				id: "7E1975A83DA59AFC"
+				type: "item"
+				item: "tfc:fire_clay"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 0.0d
+			shape: "rsquare"
+			dependencies: ["52C614D22DCFAC41"]
+			id: "1C1FB5C959A287D9"
+			tasks: [{
+				id: "1C7416C4DC436BAA"
+				type: "item"
+				item: "tfc:crucible"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -1.5d
+			dependencies: ["779DC093FE1AF061"]
+			id: "37F061A5591B7B9D"
+			tasks: [{
+				id: "658FEC14884937BE"
+				type: "item"
+				item: "tfc:powder/flux"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 0.0d
+			dependencies: ["37F061A5591B7B9D"]
+			id: "5952DFF6E82FD779"
+			tasks: [{
+				id: "6BC08F5969491378"
+				type: "item"
+				title: "Any #tfc:soaked_hides"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "tfc:soaked_hides"
+					}
+				}
+			}]
+		}
+		{
+			x: 3.5d
+			y: 1.5d
+			dependencies: ["5952DFF6E82FD779"]
+			id: "57E1F38980E0E49F"
+			tasks: [{
+				id: "2480A09EBFF5F81A"
+				type: "item"
+				item: "minecraft:leather"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 3.0d
+			shape: "rsquare"
+			dependencies: ["57E1F38980E0E49F"]
+			id: "4AEE7063774933E4"
+			tasks: [{
+				id: "09050BD9D4C844E5"
+				type: "item"
+				item: "tfc:bellows"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 3.0d
+			shape: "rsquare"
+			dependencies: ["57E1F38980E0E49F"]
+			id: "212F3EF4B3A8CCD7"
+			tasks: [{
+				id: "39F81BEC54B47BA2"
+				type: "item"
+				item: "minecraft:saddle"
+			}]
+		}
+		{
+			x: 7.5d
+			y: 3.0d
+			shape: "rsquare"
+			dependencies: ["23AD8152D2DFD0FA"]
+			id: "7FFE85AB82F8C8C1"
+			tasks: [{
+				id: "5A2FE27DD605AAE1"
+				type: "item"
+				item: "tfc:bloomery"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 1.5d
+			dependencies: ["1C1FB5C959A287D9"]
+			id: "36D807498286A508"
+			tasks: [
+				{
+					id: "7703B599DD7DA744"
+					type: "item"
+					item: "tfcchannelcasting:channel"
+				}
+				{
+					id: "39E4C33ABC1364CA"
+					type: "item"
+					item: "tfcchannelcasting:mold_table"
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: -5.0d
+			dependencies: ["770390FD224E793E"]
+			id: "1791F3BEFDAEB671"
+			tasks: [{
+				id: "3A31F42A71A4F011"
+				type: "item"
+				title: "Any #tfc:looms"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "tfc:looms"
+					}
+				}
+			}]
+		}
+		{
+			x: 3.0d
+			y: -6.5d
+			id: "770390FD224E793E"
+			tasks: [{
+				id: "05837091EEB838FD"
+				type: "item"
+				item: {
+					id: "tfc:spindle"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 3.0d
+			y: -3.5d
+			dependencies: ["1791F3BEFDAEB671"]
+			id: "7D93897F6C6EEB11"
+			tasks: [{
+				id: "673406BC6F308A5E"
+				type: "item"
+				title: "Any #forge:wool"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:wool"
+					}
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: 4.5d
+			dependencies: ["212F3EF4B3A8CCD7"]
+			optional: true
+			id: "73BBD52C89283DEF"
+			tasks: [{
+				id: "4E0DC86FDA8DA045"
+				type: "item"
+				title: "Any #astikorcarts:animal_cart"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "astikorcarts:animal_cart"
+					}
+				}
+			}]
+		}
+		{
+			x: 8.0d
+			y: 1.5d
+			dependencies: ["23AD8152D2DFD0FA"]
+			id: "3C43FBB847B6D40E"
+			tasks: [{
+				id: "60756763787A145C"
+				type: "item"
+				item: "rosia:charcoal_kiln"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

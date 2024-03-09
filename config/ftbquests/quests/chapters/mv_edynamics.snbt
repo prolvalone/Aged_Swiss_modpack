@@ -1,0 +1,12 @@
+{
+	id: "208D02CA2A902151"
+	group: "6679A6AFB45AA899"
+	order_index: 3
+	filename: "mv_edynamics"
+	title: "An alternate Power Source"
+	icon: "dynamicelectricity:motorachv"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+	quest_links: [ ]
+}

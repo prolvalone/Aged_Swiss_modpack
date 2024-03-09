@@ -1,0 +1,64 @@
+{
+	id: "0A057A64836597D7"
+	group: "748EF2F3A4658B2B"
+	order_index: 0
+	filename: "welcome"
+	title: "Welcome"
+	icon: "minecraft:writable_book"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -3.0d
+			y: -1.5d
+			id: "2B6BA678D00CFBD2"
+			tasks: [{
+				id: "18592909EC0F5554"
+				type: "checkmark"
+				title: "Welcome"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -3.5d
+			id: "2CA460066E7C9EF5"
+			tasks: [{
+				id: "39A4A4F73DE77707"
+				type: "checkmark"
+				title: "Ages"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -1.5d
+			id: "1D4787DD869A20A2"
+			tasks: [{
+				id: "7B14BCB8C203DFF5"
+				type: "checkmark"
+				title: "Terrafirmacraft"
+			}]
+			rewards: [{
+				id: "2CCBCD6AF1FAF669"
+				type: "item"
+				item: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "tfc:field_guide"
+					}
+				}
+			}]
+		}
+		{
+			x: -5.5d
+			y: -1.5d
+			id: "3E9CA10883321033"
+			tasks: [{
+				id: "1F7090819891C1A0"
+				type: "checkmark"
+				title: "Power Systems"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

@@ -1,0 +1,12 @@
+{
+	id: "17A85049DD66696F"
+	group: "5CA561537C672A7E"
+	order_index: 1
+	filename: "nuclear_science"
+	title: "Nuclear Science"
+	icon: "nuclearscience:particleinjector"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+	quest_links: [ ]
+}

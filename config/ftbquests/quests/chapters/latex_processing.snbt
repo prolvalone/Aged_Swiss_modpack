@@ -1,0 +1,87 @@
+{
+	id: "2DE021E17C264D83"
+	group: "57B9D415D17C76EC"
+	order_index: 1
+	filename: "latex_processing"
+	title: "Rubber + Thermal"
+	icon: "thermal:cured_rubber"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -2.0d
+			y: 2.5d
+			dependencies: ["1F8498F51B5437B0"]
+			id: "55F5BF9283BF5CA2"
+			tasks: [{
+				id: "18DCC32F2047EFFA"
+				type: "item"
+				item: "thermal:cured_rubber"
+			}]
+		}
+		{
+			x: -3.5d
+			y: 3.0d
+			dependencies: ["55F5BF9283BF5CA2"]
+			id: "7143D526F0B1DDC4"
+			tasks: [{
+				id: "0DB81645C82A8B9C"
+				type: "item"
+				item: "assemblylinemachines:rubber_sheet"
+			}]
+		}
+		{
+			x: -4.5d
+			y: 4.5d
+			dependencies: ["7143D526F0B1DDC4"]
+			id: "40474F5089AD90CF"
+			tasks: [{
+				id: "010D40844CBBC716"
+				type: "item"
+				item: "pneumaticcraft:pressure_tube"
+			}]
+		}
+		{
+			x: -3.5d
+			y: 0.0d
+			id: "52CB7D128C0DE820"
+			tasks: [{
+				id: "35DAAB06A2922711"
+				type: "fluid"
+				title: "Latex"
+				fluid: "thermal:latex_flowing"
+				amount: 1000L
+			}]
+		}
+		{
+			x: -2.0d
+			y: 1.0d
+			dependencies: ["52CB7D128C0DE820"]
+			id: "236E7EBF51D0435F"
+			tasks: [
+				{
+					id: "60479BBED2F71E48"
+					type: "item"
+					item: "thermal:machine_refinery"
+				}
+				{
+					id: "425394DE7093F98A"
+					type: "item"
+					item: "thermal:rubber"
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: 1.5d
+			dependencies: ["236E7EBF51D0435F"]
+			id: "1F8498F51B5437B0"
+			tasks: [{
+				id: "0F47980DC2C68135"
+				type: "item"
+				item: "thermal:machine_smelter"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

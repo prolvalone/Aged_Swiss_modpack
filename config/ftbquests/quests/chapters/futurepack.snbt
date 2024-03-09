@@ -1,0 +1,12 @@
+{
+	id: "48B56192FC7F6011"
+	group: "121E4FB2A5E4B005"
+	order_index: 0
+	filename: "futurepack"
+	title: "Futurepack"
+	icon: "futurepack:escanner"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+	quest_links: [ ]
+}

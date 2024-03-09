@@ -1,0 +1,344 @@
+{
+	id: "5983D9CB1C9C4867"
+	group: "57B9D415D17C76EC"
+	order_index: 2
+	filename: "ie"
+	title: "Industrial Boom"
+	icon: "mekanism:steel_casing"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 4.0d
+			y: -6.5d
+			shape: "gear"
+			size: 1.4d
+			id: "7A8C1FE3E0A4E2B4"
+			tasks: [
+				{
+					id: "75C4C238D90A3899"
+					type: "item"
+					item: "immersiveengineering:watermill"
+				}
+				{
+					id: "7A5AE36382830609"
+					type: "item"
+					item: "immersiveengineering:dynamo"
+				}
+				{
+					id: "72C74731817E9CC5"
+					type: "item"
+					item: "immersiveengineering:windmill"
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: -5.0d
+			dependencies: ["7A8C1FE3E0A4E2B4"]
+			id: "730197AD4F60631C"
+			tasks: [
+				{
+					id: "3181A2F99324C18E"
+					type: "item"
+					item: "immersiveengineering:capacitor_lv"
+				}
+				{
+					id: "20C3AFFC25B37CF3"
+					type: "item"
+					item: "immersiveengineering:connector_lv"
+				}
+				{
+					id: "583E3238A2242D75"
+					type: "item"
+					item: "immersiveengineering:wirecoil_copper"
+				}
+			]
+		}
+		{
+			icon: "immersiveengineering:advanced_blast_furnace"
+			x: 5.5d
+			y: -5.0d
+			dependencies: ["730197AD4F60631C"]
+			id: "0E55674BF4FC6465"
+			tasks: [
+				{
+					id: "2A98056F7CD8FD30"
+					type: "item"
+					item: "immersiveengineering:blastbrick_reinforced"
+					count: 27L
+				}
+				{
+					id: "4B89C59FBCD8F5D1"
+					type: "item"
+					item: "immersiveengineering:blastfurnace_preheater"
+					count: 2L
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: -3.0d
+			dependencies: ["730197AD4F60631C"]
+			id: "317DD6E0E970346F"
+			tasks: [{
+				id: "07869926C64AE84A"
+				type: "item"
+				item: "immersiveengineering:steel_scaffolding_standard"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -1.5d
+			dependencies: ["317DD6E0E970346F"]
+			id: "7008E051AECC2661"
+			tasks: [
+				{
+					id: "4E21FCDAD0A3C193"
+					type: "item"
+					item: "immersiveengineering:rs_engineering"
+				}
+				{
+					id: "0D8265109B42C82F"
+					type: "item"
+					item: "immersiveengineering:light_engineering"
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: 0.5d
+			dependencies: ["7008E051AECC2661"]
+			id: "602AD0F374CA1BAC"
+			tasks: [{
+				id: "14D45DA164CA346D"
+				type: "observation"
+				icon: "immersiveengineering:crusher"
+				timer: 0L
+				observe_type: 0
+				to_observe: "immersiveengineering:crusher"
+			}]
+		}
+		{
+			x: 8.0d
+			y: 0.5d
+			dependencies: ["7008E051AECC2661"]
+			id: "012654600754E700"
+			tasks: [{
+				id: "2BCEF6FA5A11A114"
+				type: "observation"
+				icon: "immersiveengineering:squeezer"
+				timer: 0L
+				observe_type: 0
+				to_observe: "immersiveengineering:squeezer"
+			}]
+		}
+		{
+			x: 9.0d
+			y: 2.0d
+			dependencies: ["012654600754E700"]
+			id: "0B0AF0C06A402C58"
+			tasks: [{
+				id: "752448787DE333E1"
+				type: "item"
+				item: {
+					id: "immersiveengineering:graphite_electrode"
+					Count: 1b
+					tag: {
+						graphDmg: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 10.5d
+			y: 2.0d
+			dependencies: ["0B0AF0C06A402C58"]
+			id: "72E931CA3FE4488D"
+			tasks: [{
+				id: "38803A2F46A3343C"
+				type: "observation"
+				icon: "immersiveengineering:arc_furnace"
+				timer: 0L
+				observe_type: 0
+				to_observe: "immersiveengineering:arc_furnace"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 0.5d
+			dependencies: ["7008E051AECC2661"]
+			id: "43806597DEAC9D3D"
+			tasks: [{
+				id: "4532850E852B6F1E"
+				type: "observation"
+				icon: "immersiveengineering:fermenter"
+				timer: 0L
+				observe_type: 0
+				to_observe: "immersiveengineering:fermenter"
+			}]
+		}
+		{
+			x: 7.0d
+			y: 2.0d
+			dependencies: [
+				"012654600754E700"
+				"43806597DEAC9D3D"
+			]
+			id: "7ADE129AB2F732B6"
+			tasks: [{
+				id: "56C53FE3EAE94086"
+				type: "observation"
+				icon: "immersiveengineering:refinery"
+				timer: 0L
+				observe_type: 0
+				to_observe: "immersiveengineering:refinery"
+			}]
+		}
+		{
+			x: 6.5d
+			y: -1.5d
+			dependencies: ["7008E051AECC2661"]
+			id: "01133CDF253CC44B"
+			tasks: [{
+				id: "16A2951116745FCB"
+				type: "observation"
+				icon: "immersiveengineering:metal_press"
+				timer: 0L
+				observe_type: 0
+				to_observe: "immersiveengineering:metal_press"
+			}]
+		}
+		{
+			x: 9.0d
+			y: -1.5d
+			dependencies: ["01133CDF253CC44B"]
+			id: "028AE81EEA3CB863"
+			tasks: [
+				{
+					id: "65008D480ADC5778"
+					type: "item"
+					item: "immersiveengineering:mold_gear"
+				}
+				{
+					id: "148326CE86E32108"
+					type: "item"
+					item: "immersiveengineering:mold_wire"
+				}
+				{
+					id: "3A4314A740993C74"
+					type: "item"
+					item: "immersiveengineering:mold_rod"
+				}
+			]
+		}
+		{
+			x: 10.5d
+			y: 3.5d
+			dependencies: ["72E931CA3FE4488D"]
+			id: "1B71CBB03F8D7F60"
+			tasks: [{
+				id: "454F020168FAC22E"
+				type: "item"
+				item: "immersiveengineering:sample_drill"
+			}]
+		}
+		{
+			x: 9.0d
+			y: 3.5d
+			description: ["Auto Mining"]
+			dependencies: ["1B71CBB03F8D7F60"]
+			id: "582D308F96461780"
+			tasks: [
+				{
+					id: "73411CD7D2383281"
+					type: "observation"
+					icon: "immersiveengineering:excavator"
+					timer: 0L
+					observe_type: 0
+					to_observe: "immersiveengineering:excavator"
+				}
+				{
+					id: "1E2C6C15EB09B726"
+					type: "observation"
+					icon: "immersiveengineering:bucket_wheel"
+					timer: 0L
+					observe_type: 0
+					to_observe: "immersiveengineering:bucket_wheel"
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 0.5d
+			dependencies: ["7008E051AECC2661"]
+			id: "570CAF43FF909294"
+			tasks: [
+				{
+					id: "5065255F3B7DA3BF"
+					type: "observation"
+					icon: "advancedtfctech:power_loom"
+					timer: 0L
+					observe_type: 0
+					to_observe: "advancedtfctech:power_loom"
+				}
+				{
+					id: "0301DDAB22F1CC8E"
+					type: "observation"
+					icon: "advancedtfctech:grist_mill"
+					timer: 0L
+					observe_type: 0
+					to_observe: "advancedtfctech:grist_mill"
+				}
+				{
+					id: "3312879AD1ADE831"
+					type: "observation"
+					icon: "advancedtfctech:power_loom"
+					timer: 0L
+					observe_type: 0
+					to_observe: "advancedtfctech:thresher"
+				}
+			]
+		}
+		{
+			x: 6.5d
+			y: -3.5d
+			dependencies: ["0E55674BF4FC6465"]
+			id: "716B5A7033F1DC1C"
+			tasks: [{
+				id: "5898EBA71B66C662"
+				type: "item"
+				item: "industrialrenewal:concrete"
+			}]
+		}
+		{
+			x: 8.0d
+			y: -3.5d
+			dependencies: ["716B5A7033F1DC1C"]
+			id: "46C7F3F02B685F22"
+			tasks: [
+				{
+					id: "23E99E927B898011"
+					type: "item"
+					item: "industrialrenewal:dam_turbine"
+				}
+				{
+					id: "09A42494ACB78BD3"
+					type: "item"
+					item: "industrialrenewal:dam_generator"
+				}
+				{
+					id: "3CEBAFAC930E9E3A"
+					type: "item"
+					item: "industrialrenewal:dam_intake"
+				}
+				{
+					id: "05CF7E1FC40AC676"
+					type: "item"
+					item: "industrialrenewal:dam_outflow"
+				}
+			]
+		}
+	]
+	quest_links: [ ]
+}

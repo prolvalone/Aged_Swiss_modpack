@@ -1,0 +1,207 @@
+{
+	id: "2D8D972C99F55062"
+	group: "57B9D415D17C76EC"
+	order_index: 0
+	filename: "first_energy_systems"
+	title: "First Energy Systems"
+	icon: "rosia:steam_generator"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -2.0d
+			y: -2.5d
+			description: ["ELECTRICITY!"]
+			dependencies: ["0B2C4186DDCCF02D"]
+			id: "2DE0572C00600618"
+			tasks: [{
+				id: "22F02333D5D4E68C"
+				type: "item"
+				item: "rosia:steam_generator"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -4.0d
+			shape: "rsquare"
+			dependencies: ["14C931FE248F4986"]
+			id: "0B2C4186DDCCF02D"
+			tasks: [{
+				id: "0ACEE4971D84D91C"
+				type: "item"
+				item: "rosia:fire_box"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 1.0d
+			dependencies: ["2DE0572C00600618"]
+			id: "27C24E96672432FA"
+			tasks: [{
+				id: "4613A2A47E881EF7"
+				type: "item"
+				item: "rosia:nickel_iron_battery"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -1.5d
+			dependencies: ["2DE0572C00600618"]
+			id: "44F6ADE8F32FCED2"
+			tasks: [{
+				id: "218A69E043DBDBD0"
+				type: "item"
+				item: "rosia:extruding_machine"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -0.5d
+			dependencies: ["44F6ADE8F32FCED2"]
+			id: "55F7D70005946FE2"
+			tasks: [{
+				id: "7897C3A4C0F7DBE5"
+				type: "item"
+				item: "rosia:auto_quern"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.0d
+			dependencies: ["55F7D70005946FE2"]
+			id: "222A680E0930BCC5"
+			tasks: [{
+				id: "221C0881A67D1208"
+				type: "item"
+				item: "rosia:rolling_machine"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -1.5d
+			dependencies: ["2DE0572C00600618"]
+			id: "39A6280DAB073DF0"
+			tasks: [{
+				id: "044D00E2AF788938"
+				type: "item"
+				item: "rosia:water_pump"
+			}]
+		}
+		{
+			x: -4.0d
+			y: -0.5d
+			dependencies: ["39A6280DAB073DF0"]
+			id: "11A4A55CDFBF3AA5"
+			tasks: [{
+				id: "6AAE6983FAB2C9C3"
+				type: "item"
+				item: "rosia:canning_press"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 2.5d
+			dependencies: ["27C24E96672432FA"]
+			id: "67BECAB8D8E1986F"
+			tasks: [{
+				id: "3FE369E55A77493F"
+				type: "item"
+				item: {
+					id: "rosia:purple_steel_ingot"
+					Count: 1b
+					ForgeCaps: {
+						"tfc:item_heat": {
+							heat: 0.0f
+							ticks: 0L
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -1.5d
+			y: 4.0d
+			dependencies: ["67BECAB8D8E1986F"]
+			id: "606F3C8F3D4149A7"
+			tasks: [{
+				id: "214EC08BFD0B678A"
+				type: "item"
+				item: "rosia:electric_forge"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 4.0d
+			dependencies: ["67BECAB8D8E1986F"]
+			id: "34E74E4E4E332596"
+			tasks: [{
+				id: "6E3C32043BD0DAC1"
+				type: "item"
+				item: "rosia:fridge"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 1.0d
+			dependencies: ["11A4A55CDFBF3AA5"]
+			id: "5D92D44A8DD6EAD7"
+			tasks: [{
+				id: "3E70CBA7A7655F25"
+				type: "item"
+				item: "rosia:electric_grill"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 2.5d
+			dependencies: ["27C24E96672432FA"]
+			id: "60D6FC5CBCDC59CF"
+			tasks: [
+				{
+					id: "03A854FABBF27471"
+					type: "item"
+					item: "immersiveengineering:connector_lv"
+				}
+				{
+					id: "687DD0983728470B"
+					type: "item"
+					item: "immersiveengineering:connector_lv_relay"
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 4.0d
+			dependencies: ["60D6FC5CBCDC59CF"]
+			id: "003A1773F6DF68A9"
+			tasks: [{
+				id: "3BA6C6C3A777324A"
+				type: "item"
+				item: "immersiveengineering:wirecoil_copper"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -2.5d
+			dependencies: ["0B2C4186DDCCF02D"]
+			id: "66E60CF71D7D23D7"
+			tasks: [{
+				id: "4E36FAD0E9FEDCCD"
+				type: "item"
+				item: "immersiveengineering:blastfurnace_preheater"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 5.5d
+			dependencies: ["003A1773F6DF68A9"]
+			id: "6547F682CFF98017"
+			tasks: [{
+				id: "437F4839F0E94568"
+				type: "item"
+				item: "immersiveengineering:dynamo"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

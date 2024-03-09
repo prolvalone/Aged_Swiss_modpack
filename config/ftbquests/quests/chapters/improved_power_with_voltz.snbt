@@ -1,0 +1,12 @@
+{
+	id: "2923729AF90321D8"
+	group: "57B9D415D17C76EC"
+	order_index: 4
+	filename: "improved_power_with_voltz"
+	title: "Improved Power with Voltz"
+	icon: "electrodynamics:windmill"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+	quest_links: [ ]
+}

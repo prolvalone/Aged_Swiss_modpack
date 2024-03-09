@@ -1,0 +1,621 @@
+{
+	id: "12DCAD11E6823498"
+	group: ""
+	order_index: 2
+	filename: "the_end"
+	title: "The End"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -4.0d
+			y: -1.0d
+			id: "34E3012239390F90"
+			tasks: [{
+				id: "1682E8AB82A164C0"
+				type: "item"
+				item: {
+					id: "endrem:black_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -4.0d
+			y: 0.5d
+			id: "20CCB3F16EE4438D"
+			tasks: [{
+				id: "46DB6C5823020A79"
+				type: "item"
+				item: {
+					id: "endrem:cold_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: 3.5d
+			id: "7AADEC443F343587"
+			tasks: [{
+				id: "7182675ADA9E0C75"
+				type: "item"
+				item: {
+					id: "endrem:corrupted_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -2.5d
+			y: -2.5d
+			id: "55A65B6715678B6A"
+			tasks: [{
+				id: "035633CDCF1F4323"
+				type: "item"
+				item: {
+					id: "endrem:lost_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -1.0d
+			y: -2.5d
+			id: "278AEF466D2745E6"
+			tasks: [{
+				id: "0F2D2BDDF125B324"
+				type: "item"
+				item: {
+					id: "endrem:nether_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 0.5d
+			y: -2.5d
+			id: "654CA2681301340D"
+			tasks: [{
+				id: "0DAFE8C28DBF682C"
+				type: "item"
+				item: {
+					id: "endrem:old_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: -1.0d
+			id: "2B2EF1B61660BF10"
+			tasks: [{
+				id: "21980AAA7ED60720"
+				type: "item"
+				item: {
+					id: "endrem:rogue_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: 0.5d
+			id: "3E943039398BB0BA"
+			tasks: [{
+				id: "13872612B061FBB5"
+				type: "item"
+				item: {
+					id: "endrem:cursed_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: 2.0d
+			id: "71B5006A50209F9E"
+			tasks: [{
+				id: "5B0E14BC6BA0A405"
+				type: "item"
+				item: {
+					id: "endrem:evil_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -4.0d
+			y: -2.5d
+			id: "31AEDEDB7219037F"
+			tasks: [{
+				id: "49797636AFE03B52"
+				type: "item"
+				item: {
+					id: "endrem:guardian_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: -2.5d
+			id: "37208E18FB9F639E"
+			tasks: [{
+				id: "438350FDFF74DAC4"
+				type: "item"
+				item: {
+					id: "endrem:magical_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 0.5d
+			y: 3.5d
+			id: "37D652ABF2AAFF95"
+			tasks: [{
+				id: "4E14E3147DA0D375"
+				type: "item"
+				item: {
+					id: "endrem:wither_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -4.0d
+			y: 2.0d
+			id: "2FE2C095F02D14FC"
+			tasks: [{
+				id: "4E4069E55E73C2DE"
+				type: "item"
+				item: {
+					id: "endrem:witch_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -2.5d
+			y: 3.5d
+			id: "49D682ACD5BBFDCC"
+			tasks: [{
+				id: "769AAFFE1D22FCED"
+				type: "item"
+				item: {
+					id: "endrem:undead_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -4.0d
+			y: 3.5d
+			id: "103E10E3DE84E105"
+			tasks: [{
+				id: "619DE3E1F6E42094"
+				type: "item"
+				item: {
+					id: "endrem:exotic_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -1.0d
+			y: 3.5d
+			id: "226AF14C268CC475"
+			tasks: [{
+				id: "7B6607ABDC3BEF81"
+				type: "item"
+				item: "minecraft:end_portal_frame"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -4.0d
+			id: "154CEA2D12E3561B"
+			tasks: [{
+				id: "04DEC9C6B61434FC"
+				type: "item"
+				item: "avaritia:redstone_singularity"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 5.0d
+			id: "75DE3D8A864DFA34"
+			tasks: [{
+				id: "71420C36252C4DFA"
+				type: "item"
+				item: "avaritia:iron_singularity"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -4.0d
+			id: "05ADC744BC095075"
+			tasks: [{
+				id: "1641FBAF07B97A75"
+				type: "item"
+				item: "avaritia:gold_singularity"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 2.0d
+			id: "413C3ADE17B78A61"
+			tasks: [{
+				id: "3EF81027A33D2BB2"
+				type: "item"
+				item: "avaritia:lapis_singularity"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 5.0d
+			id: "40F9629967ADB35B"
+			tasks: [{
+				id: "4661927F44CF776B"
+				type: "item"
+				item: "avaritia:quartz_singularity"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -4.0d
+			id: "0A2EDF25FC73329E"
+			tasks: [{
+				id: "30062DD20A56D302"
+				type: "item"
+				item: "avaritia:copper_singularity"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 5.0d
+			id: "7CBD1E2AE5981C88"
+			tasks: [{
+				id: "5506663E2599EDA0"
+				type: "item"
+				item: "avaritia:tin_singularity"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 0.5d
+			id: "11E7E5ACDB323872"
+			tasks: [{
+				id: "026640600D2E7751"
+				type: "item"
+				item: "avaritia:lead_singularity"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 4.5d
+			id: "450BCCD0D78FDEBA"
+			tasks: [{
+				id: "67C6AA340366CD80"
+				type: "item"
+				item: "avaritia:silver_singularity"
+			}]
+		}
+		{
+			x: -4.0d
+			y: -4.0d
+			id: "2184E9E7655D33B3"
+			tasks: [{
+				id: "3A838622CCB99183"
+				type: "item"
+				item: "avaritia:nickel_singularity"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -4.0d
+			id: "4774715D78A922F9"
+			tasks: [{
+				id: "2A52C668C9B078A2"
+				type: "item"
+				item: "avaritia:diamond_singularity"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -1.0d
+			id: "2AD2618B2B92A270"
+			tasks: [{
+				id: "706FADE15C9E7A41"
+				type: "item"
+				item: "avaritia:emerald_singularity"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 5.0d
+			id: "17C1C21FACF4E61B"
+			tasks: [{
+				id: "67AA932C993BC94C"
+				type: "item"
+				item: "avaritia:fluxed_singularity"
+			}]
+		}
+		{
+			x: -5.5d
+			y: 0.5d
+			id: "5F46579E3ABDCC5C"
+			tasks: [{
+				id: "0EF68345032417C7"
+				type: "item"
+				item: "avaritia:platinum_singularity"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 5.5d
+			id: "00D69C6379232642"
+			tasks: [{
+				id: "7A79937004A45212"
+				type: "item"
+				item: "avaritia:iridium_singularity"
+			}]
+		}
+		{
+			x: -5.5d
+			y: -1.0d
+			id: "1FA11A4AA7F3BD3D"
+			tasks: [{
+				id: "39701004380E64DB"
+				type: "item"
+				item: "avaritia:netherite_singularity"
+			}]
+		}
+		{
+			x: -5.5d
+			y: 2.0d
+			id: "0E5567ED3C2D405A"
+			tasks: [{
+				id: "61A4A7E1627C89A3"
+				type: "item"
+				item: "avaritia:amethyst_singularity"
+			}]
+		}
+		{
+			title: "SolarCraft"
+			x: 0.5d
+			y: -5.5d
+			id: "23A3B525D3976DD2"
+			tasks: [{
+				id: "4BBB8096D681A0DE"
+				type: "item"
+				item: "solarforge:rune_energy_pylon"
+			}]
+		}
+		{
+			title: "Futurepack"
+			x: 2.0d
+			y: -5.5d
+			id: "23806A81F1DE7D9E"
+			tasks: [{
+				id: "087E812F2D205D4B"
+				type: "item"
+				item: "futurepack:parts_neon"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 0.5d
+			id: "779A4AE0CC7FC956"
+			tasks: [{
+				id: "37DCF04076B0D0A0"
+				type: "item"
+				item: "minecraft:dragon_head"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 0.5d
+			dependencies: ["779A4AE0CC7FC956"]
+			id: "2C7EF49F762F2EED"
+			tasks: [{
+				id: "2E34BEE87FABDC18"
+				type: "item"
+				item: "draconicadditions:chaos_heart"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -5.5d
+			id: "6E179617A7468A35"
+			tasks: [{
+				id: "7473EDC06EC88886"
+				type: "item"
+				title: "Blood Magic"
+				item: "bloodmagic:weakbloodorb"
+			}]
+		}
+		{
+			title: "Draconic Evolution"
+			x: -4.0d
+			y: 6.5d
+			id: "38FBF93D04CC3AF6"
+			tasks: [{
+				id: "107A16F44333E113"
+				type: "item"
+				item: "draconicevolution:awakened_core"
+			}]
+		}
+		{
+			title: "Botania?"
+			x: 5.0d
+			y: -1.0d
+			id: "537305363CE67494"
+			tasks: [{
+				id: "260C4E3B0671B570"
+				type: "item"
+				item: "futurepack:topinambur_flower"
+			}]
+		}
+		{
+			x: -7.0d
+			y: -1.0d
+			id: "1CB9A2753BF5286D"
+			tasks: [{
+				id: "51DFFAF94E40B0D0"
+				type: "item"
+				item: "crossroads:sigil_technomancy"
+			}]
+		}
+		{
+			x: -7.0d
+			y: 2.0d
+			id: "6DFE8BF1B6841709"
+			tasks: [{
+				id: "21759809D61B20D6"
+				type: "item"
+				item: "crossroads:sigil_witchcraft"
+			}]
+		}
+		{
+			x: -7.0d
+			y: 0.5d
+			id: "2F15FA81D1F7B723"
+			tasks: [{
+				id: "4C8A710115C96596"
+				type: "item"
+				item: "crossroads:sigil_alchemy"
+			}]
+		}
+		{
+			title: "Nether Stuff"
+			x: -1.0d
+			y: -5.5d
+			id: "164537214BB79034"
+			tasks: [{
+				id: "4795F76802EEB9A8"
+				type: "item"
+				item: "aerialhell:golden_nether_steak"
+			}]
+		}
+		{
+			x: -4.0d
+			y: -5.5d
+			id: "2FD00959D16A2EDC"
+			tasks: [{
+				id: "22C01D1047490018"
+				type: "item"
+				item: "chemlib:periodic_table"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 0.5d
+			id: "127D755DCA8C1AD0"
+			tasks: [{
+				id: "007230B14CAB5B57"
+				type: "item"
+				item: "mekanism:alloy_atomic"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 2.0d
+			id: "36B86AAEA0E7E4FD"
+			tasks: [{
+				id: "496C3C4772ADEF89"
+				type: "item"
+				item: "nuclearscience:particleinjector"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 6.5d
+			id: "3F322D0728D64B79"
+			tasks: [{
+				id: "45BAC56D560772F7"
+				type: "item"
+				item: "create:large_cogwheel"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 6.5d
+			id: "1B8E8BF87361D322"
+			tasks: [{
+				id: "7467F393C1C7FF08"
+				type: "item"
+				item: "hostilenetworks:sim_chamber"
+			}]
+		}
+		{
+			title: "Adventure"
+			x: -1.0d
+			y: 7.0d
+			id: "56D977108688A2A3"
+			tasks: [{
+				id: "098EDA2BC51C8822"
+				type: "item"
+				item: "blue_skies:everdawn_portal"
+			}]
+		}
+		{
+			title: "Boss Fights"
+			x: 0.5d
+			y: 6.5d
+			id: "4F4F6A2594BB60DC"
+			tasks: [{
+				id: "280DA63585DDD7C0"
+				type: "item"
+				item: "minecraft:creeper_head"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

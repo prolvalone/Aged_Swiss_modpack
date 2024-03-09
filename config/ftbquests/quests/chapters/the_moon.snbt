@@ -1,0 +1,16 @@
+{
+	id: "594B048DDB063D66"
+	group: "4E4B712B3672CD1B"
+	order_index: 0
+	filename: "the_moon"
+	title: "The Moon + Mars"
+	icon: {
+		id: "beyond_earth:rocket_t1"
+		Count: 1b
+		tag: { }
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+	quest_links: [ ]
+}

@@ -1,0 +1,175 @@
+{
+	id: "4B5EE826E58133DC"
+	group: "138BF01B1E95BD7A"
+	order_index: 1
+	filename: "trains_and_boats"
+	title: "Steam Engine"
+	icon: "littlelogistics:steam_locomotive"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -3.5d
+			y: -1.0d
+			dependencies: ["7086A1D4AF86A744"]
+			id: "51B12EA7A5D7EE34"
+			tasks: [{
+				id: "10D30AD1873CACC3"
+				type: "item"
+				item: "littlelogistics:tug"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -1.0d
+			dependencies: [
+				"51B12EA7A5D7EE34"
+				"7DEECD24DD73C637"
+			]
+			id: "1A9C1B06432395F3"
+			tasks: [
+				{
+					id: "24E87CFE45F2DEEF"
+					type: "item"
+					item: "littlelogistics:barge"
+				}
+				{
+					id: "1847A8CBFDFD4312"
+					type: "item"
+					item: "littlelogistics:tug_route"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -1.0d
+			dependencies: ["1A9C1B06432395F3"]
+			id: "5B2524D1163FA24C"
+			tasks: [
+				{
+					id: "693676F78FD29DAA"
+					type: "item"
+					item: "littlelogistics:tug_dock"
+				}
+				{
+					id: "6C07AA2803863C24"
+					type: "item"
+					item: "littlelogistics:vessel_detector"
+				}
+				{
+					id: "178A7973F92226DD"
+					type: "item"
+					item: "littlelogistics:barge_dock"
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: 2.0d
+			dependencies: ["7086A1D4AF86A744"]
+			id: "2C8A9A90189CCB58"
+			tasks: [{
+				id: "550D2D376585C862"
+				type: "item"
+				item: "littlelogistics:steam_locomotive"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 2.0d
+			dependencies: ["0F50AD83957B86A6"]
+			id: "615C8000A5C3EF77"
+			tasks: [
+				{
+					id: "716DB63A1B7A9221"
+					type: "item"
+					item: "littlelogistics:car_dock_rail"
+				}
+				{
+					id: "7DB262EF5C595D7C"
+					type: "item"
+					item: "littlelogistics:locomotive_dock_rail"
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 2.0d
+			dependencies: [
+				"2C8A9A90189CCB58"
+				"7DEECD24DD73C637"
+			]
+			id: "0F50AD83957B86A6"
+			tasks: [
+				{
+					id: "46C4D1B56819792C"
+					type: "item"
+					item: "littlelogistics:locomotive_route"
+				}
+				{
+					id: "1BEE42952BB79604"
+					type: "item"
+					item: "littlelogistics:chest_car"
+				}
+			]
+		}
+		{
+			x: -5.5d
+			y: 0.0d
+			shape: "rsquare"
+			size: 1.3d
+			id: "7086A1D4AF86A744"
+			tasks: [{
+				id: "6B51920DF6020A7D"
+				type: "item"
+				item: "create:steam_engine"
+			}]
+		}
+		{
+			x: -3.5d
+			y: 3.5d
+			dependencies: ["2C8A9A90189CCB58"]
+			id: "2B8A3150E1D3D1D8"
+			tasks: [{
+				id: "361B3BA79370B18E"
+				type: "item"
+				item: "create:track"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 3.5d
+			dependencies: ["2B8A3150E1D3D1D8"]
+			id: "114DB9CCE8E4D1F0"
+			tasks: [{
+				id: "2DE216C1986D24F2"
+				type: "item"
+				item: "create:railway_casing"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 2.0d
+			description: ["@minecart in the JEI search Bar will give you access to a plethora of new minecarts and rails to toy around with"]
+			dependencies: ["615C8000A5C3EF77"]
+			id: "55A9BAA334BF1F05"
+			tasks: [{
+				id: "6FC9104A98B6C0CC"
+				type: "checkmark"
+				title: "Rail Options"
+			}]
+		}
+		{
+			x: -3.5d
+			y: 0.5d
+			dependencies: ["7086A1D4AF86A744"]
+			id: "7DEECD24DD73C637"
+			tasks: [{
+				id: "449A2AEE719C6485"
+				type: "item"
+				item: "littlelogistics:spring"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

@@ -1,0 +1,361 @@
+{
+	id: "1B2B7C2C83C13AB0"
+	group: "7C1BA70F4F0940AF"
+	order_index: 2
+	filename: "iron_age"
+	title: "Iron Age"
+	icon: "minecraft:raw_iron"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.6999999999999993d
+			y: -4.0d
+			shape: "gear"
+			hide_dependency_lines: true
+			dependencies: ["7FFE85AB82F8C8C1"]
+			hide: true
+			size: 1.3d
+			id: "6A0FDA7C1243F216"
+			tasks: [{
+				id: "3D40A5B0C11AE6F8"
+				type: "item"
+				item: {
+					id: "tfc:metal/ingot/wrought_iron"
+					Count: 1b
+					ForgeCaps: {
+						"tfc:item_heat": {
+							heat: 0.0f
+							ticks: 0L
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: -2.25d
+			dependencies: ["6A0FDA7C1243F216"]
+			id: "55E1F5294AF21C8C"
+			tasks: [
+				{
+					id: "5F348ABA0ACEB2E9"
+					type: "item"
+					item: {
+						id: "tfc:metal/anvil/wrought_iron"
+						Count: 1b
+						ForgeCaps: {
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+					}
+				}
+				{
+					id: "3F2F65E34CD5FD22"
+					type: "item"
+					item: {
+						id: "immersiveengineering:hammer"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -2.25d
+			dependencies: ["6A0FDA7C1243F216"]
+			id: "6488BDCF266370D4"
+			tasks: [{
+				id: "1526B2A2D7D82347"
+				type: "item"
+				item: "create:andesite_alloy"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -0.75d
+			dependencies: ["6488BDCF266370D4"]
+			id: "252537E0B89FE544"
+			tasks: [
+				{
+					id: "2312770C72C98ECB"
+					type: "item"
+					item: "create:water_wheel"
+				}
+				{
+					id: "33B8192781ED37AA"
+					type: "item"
+					item: "create:large_water_wheel"
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: -1.25d
+			dependencies: ["55E1F5294AF21C8C"]
+			id: "1612BFA9D9A76F52"
+			tasks: [{
+				id: "48443A8FF66C6394"
+				type: "item"
+				item: "immersiveengineering:blastbrick"
+				count: 27L
+			}]
+		}
+		{
+			x: 3.0d
+			y: -1.25d
+			description: ["This is the Coke Oven"]
+			dependencies: ["55E1F5294AF21C8C"]
+			id: "57E3BFAD28E34B9D"
+			tasks: [{
+				id: "2D4C3AB6C596AC06"
+				type: "item"
+				item: "tfc:fire_bricks"
+				count: 27L
+			}]
+		}
+		{
+			x: 1.0d
+			y: 0.25d
+			dependencies: ["1612BFA9D9A76F52"]
+			id: "1FC45CF560D3C627"
+			tasks: [{
+				id: "3273D1784C6820B0"
+				type: "item"
+				item: {
+					id: "tfc:metal/ingot/steel"
+					Count: 1b
+					ForgeCaps: {
+						"tfc:item_heat": {
+							heat: 0.0f
+							ticks: 0L
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: 1.75d
+			dependencies: ["1FC45CF560D3C627"]
+			id: "5080D365F4BCF160"
+			tasks: [
+				{
+					id: "49A15D11A996DBF9"
+					type: "item"
+					item: {
+						id: "tfc:metal/ingot/blue_steel"
+						Count: 1b
+						ForgeCaps: {
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+					}
+				}
+				{
+					id: "03C1CBB315D8C3C7"
+					type: "item"
+					item: {
+						id: "tfc:metal/ingot/red_steel"
+						Count: 1b
+						ForgeCaps: {
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 1.3499999999999996d
+			y: 3.8000000000000007d
+			shape: "rsquare"
+			description: [
+				"Believe it or not, the endgame goal of TFC by itself is quite literally to craft a bucket."
+				""
+				"This Bucket Allows you access to moving water and lava sources.  This is a huge step up in your ability with the mod Create"
+			]
+			dependencies: ["5080D365F4BCF160"]
+			size: 1.3d
+			id: "2C36E0F5C228481C"
+			tasks: [{
+				id: "38414C866C17DD2B"
+				type: "item"
+				item: "minecraft:bucket"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 0.75d
+			dependencies: ["252537E0B89FE544"]
+			id: "1775286E51ABE3A2"
+			tasks: [{
+				id: "1D6F0026C7158284"
+				type: "item"
+				item: "create:millstone"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 2.25d
+			dependencies: ["5E7753B28113D74E"]
+			id: "6D30E8BA797A58F7"
+			tasks: [
+				{
+					id: "58C920525AFC8988"
+					type: "item"
+					item: "create:basin"
+				}
+				{
+					id: "33161C49E60D349B"
+					type: "item"
+					item: "create:mechanical_mixer"
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 3.25d
+			dependencies: ["6D30E8BA797A58F7"]
+			id: "6FBB0ED002118D65"
+			tasks: [{
+				id: "63C8B1222DBD4907"
+				type: "item"
+				item: "create:deployer"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 0.75d
+			dependencies: ["252537E0B89FE544"]
+			id: "5E7753B28113D74E"
+			tasks: [{
+				id: "7FBD8A6F8FEAAC9F"
+				type: "item"
+				item: "create:mechanical_press"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 4.25d
+			dependencies: ["6FBB0ED002118D65"]
+			id: "69D94617B07B31ED"
+			tasks: [{
+				id: "134F2049F4F2E0D3"
+				type: "item"
+				item: "create:precision_mechanism"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 5.75d
+			dependencies: ["69D94617B07B31ED"]
+			id: "009B902C767D5C34"
+			tasks: [{
+				id: "4EDAE76AD3F64160"
+				type: "item"
+				item: "create:mechanical_arm"
+			}]
+		}
+		{
+			x: 3.3000000000000007d
+			y: 0.5500000000000007d
+			shape: "rsquare"
+			dependencies: ["57E3BFAD28E34B9D"]
+			size: 1.3d
+			id: "31ED5080675F34EE"
+			tasks: [{
+				id: "50B058C2FF57B647"
+				type: "item"
+				item: "immersiveengineering:treated_wood_horizontal"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 2.0d
+			dependencies: ["31ED5080675F34EE"]
+			id: "143CB9A593E74254"
+			tasks: [{
+				id: "2285E8D3B590C9B6"
+				type: "item"
+				item: "create:crushing_wheel"
+			}]
+		}
+		{
+			x: -3.5d
+			y: 2.0d
+			dependencies: ["1775286E51ABE3A2"]
+			id: "13A73C482385D694"
+			tasks: [{
+				id: "15EE93114BD5C438"
+				type: "item"
+				item: "create:mechanical_saw"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 5.0d
+			dependencies: ["2C36E0F5C228481C"]
+			id: "53E974B2E717C008"
+			tasks: [{
+				id: "03E5CD8A0F466E71"
+				type: "item"
+				item: "minecraft:obsidian"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 6.5d
+			dependencies: ["53E974B2E717C008"]
+			id: "356BBD8EA34EB7B7"
+			tasks: [
+				{
+					id: "0067198112AD2568"
+					type: "item"
+					item: "minecraft:enchanting_table"
+				}
+				{
+					id: "41BCDE8C0726F7FA"
+					type: "item"
+					item: "tfc:gem/lapis_lazuli"
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: 8.0d
+			description: ["You need 30 total books, or 5 full bookshelves for level 30 enchants"]
+			dependencies: ["356BBD8EA34EB7B7"]
+			id: "39935CF0B7E9B7D8"
+			tasks: [
+				{
+					id: "1F0FB6AF737B8CE3"
+					type: "item"
+					title: "Any #tfc:bookshelves"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "tfc:bookshelves"
+						}
+					}
+				}
+				{
+					id: "0980236A4BA9EBFD"
+					type: "item"
+					item: "minecraft:book"
+				}
+			]
+		}
+	]
+	quest_links: [ ]
+}

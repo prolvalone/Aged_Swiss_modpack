@@ -1,0 +1,457 @@
+{
+	id: "1F92D313C54FA6B3"
+	group: "10AF14F0D01C293C"
+	order_index: 0
+	filename: "medievil_sorcery"
+	title: "Dimensional Dominance"
+	icon: "blue_skies:everdawn_portal"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -22.0d
+			y: -19.0d
+			dependencies: ["42037C2B550C690E"]
+			id: "70EFEAD9F9DB222F"
+			tasks: [{
+				id: "55E96B5B185CBA47"
+				type: "dimension"
+				icon: "blue_skies:everdawn_portal"
+				dimension: "blue_skies:everdawn"
+			}]
+		}
+		{
+			x: -19.5d
+			y: -19.0d
+			dependencies: ["7CA61FF5052FB537"]
+			id: "16102D282E17B36A"
+			tasks: [{
+				id: "63992F8FDCBD220C"
+				type: "dimension"
+				icon: "blue_skies:everbright_portal"
+				dimension: "blue_skies:everbright"
+			}]
+		}
+		{
+			x: -28.5d
+			y: -28.0d
+			description: [
+				"You are gonna want a surefire balanced diet before coming here.  Health is key"
+				""
+				"Bosses are not required besides the wither, and I dont advise fighting them until you are for sure ready"
+				""
+			]
+			id: "4CF1DBF51967D37D"
+			tasks: [{
+				id: "2A24F0D9779392BD"
+				type: "dimension"
+				dimension: "minecraft:the_nether"
+			}]
+		}
+		{
+			x: -21.0d
+			y: -22.5d
+			shape: "rsquare"
+			dependencies: ["5FE2F5DE25758AE5"]
+			id: "0494791C49AB6153"
+			tasks: [{
+				id: "13536D6168589197"
+				type: "item"
+				item: {
+					id: "blue_skies:zeal_lighter"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -19.5d
+			y: -21.0d
+			dependencies: ["0494791C49AB6153"]
+			id: "7CA61FF5052FB537"
+			tasks: [{
+				id: "5A61E2675EAAE34D"
+				type: "item"
+				item: "blue_skies:turquoise_stonebrick"
+			}]
+		}
+		{
+			x: -22.0d
+			y: -21.0d
+			dependencies: ["0494791C49AB6153"]
+			id: "42037C2B550C690E"
+			tasks: [{
+				id: "3F11D482A403D564"
+				type: "item"
+				item: "blue_skies:lunar_stonebrick"
+			}]
+		}
+		{
+			x: -31.5d
+			y: -27.5d
+			dependencies: ["4CF1DBF51967D37D"]
+			id: "253AAF29CCCC88A1"
+			tasks: [{
+				id: "69E2FAA6DC960572"
+				type: "item"
+				item: "minecraft:blaze_rod"
+			}]
+		}
+		{
+			x: -32.5d
+			y: -26.0d
+			description: ["more useful later on..."]
+			dependencies: ["253AAF29CCCC88A1"]
+			id: "3A03B59F984C1138"
+			tasks: [{
+				id: "044A858E9237ECD6"
+				type: "item"
+				item: "minecraft:ender_eye"
+			}]
+		}
+		{
+			x: -31.0d
+			y: -26.0d
+			dependencies: ["253AAF29CCCC88A1"]
+			id: "763A136332682668"
+			tasks: [{
+				id: "6644563E433259BE"
+				type: "item"
+				item: "create:blaze_burner"
+			}]
+		}
+		{
+			x: -34.5d
+			y: -27.0d
+			dependencies: ["253AAF29CCCC88A1"]
+			id: "6BFD4FB8A9E18264"
+			tasks: [{
+				id: "1BEB0E75E7F6CEA0"
+				type: "item"
+				item: "minecraft:netherite_scrap"
+			}]
+		}
+		{
+			x: -37.0d
+			y: -26.5d
+			dependencies: ["6BFD4FB8A9E18264"]
+			id: "5E229B96B0A84FF7"
+			tasks: [{
+				id: "39487D5D86A66648"
+				type: "kill"
+				icon: {
+					id: "cataclysm:infernal_forge"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				entity: "cataclysm:netherite_monstrosity"
+				value: 1L
+			}]
+		}
+		{
+			x: -34.5d
+			y: -25.5d
+			dependencies: ["6BFD4FB8A9E18264"]
+			id: "1F5123EF6A19D667"
+			tasks: [{
+				id: "2C3D149C39060414"
+				type: "item"
+				item: "cataclysm:burning_ashes"
+			}]
+		}
+		{
+			x: -34.5d
+			y: -24.0d
+			dependencies: ["1F5123EF6A19D667"]
+			id: "1CB9FC24FC7E8EF4"
+			tasks: [{
+				id: "57473FA1E503BF83"
+				type: "kill"
+				icon: "cataclysm:the_incinerator"
+				entity: "cataclysm:ignis"
+				value: 1L
+			}]
+		}
+		{
+			x: -19.5d
+			y: -17.5d
+			dependencies: ["16102D282E17B36A"]
+			id: "2EA348C4FAB9EE28"
+			tasks: [{
+				id: "777F7BD07B01F08D"
+				type: "kill"
+				icon: "blue_skies:alchemist_spawn_egg"
+				entity: "blue_skies:alchemist"
+				value: 1L
+			}]
+		}
+		{
+			x: -22.0d
+			y: -17.5d
+			dependencies: ["70EFEAD9F9DB222F"]
+			id: "2C35F16A6B49F7A8"
+			tasks: [{
+				id: "56173FE936CF4E93"
+				type: "kill"
+				icon: "blue_skies:summoner_spawn_egg"
+				entity: "blue_skies:summoner"
+				value: 1L
+			}]
+		}
+		{
+			x: -22.0d
+			y: -16.0d
+			dependencies: ["2C35F16A6B49F7A8"]
+			id: "206737D54D53AE13"
+			tasks: [{
+				id: "6E199F693056E35F"
+				type: "kill"
+				icon: "blue_skies:arachnarch_spawn_egg"
+				entity: "blue_skies:arachnarch"
+				value: 1L
+			}]
+		}
+		{
+			x: -19.5d
+			y: -16.0d
+			dependencies: ["2EA348C4FAB9EE28"]
+			id: "002F287D49D7F288"
+			tasks: [{
+				id: "67A85D85ADD97B52"
+				type: "kill"
+				icon: "blue_skies:starlit_crusher_spawn_egg"
+				entity: "blue_skies:starlit_crusher"
+				value: 1L
+			}]
+		}
+		{
+			x: -25.0d
+			y: -27.5d
+			dependencies: ["4CF1DBF51967D37D"]
+			id: "5C432C765159C4A0"
+			tasks: [{
+				id: "563A1179D288BAAF"
+				type: "kill"
+				icon: "minecraft:wither_skeleton_skull"
+				entity: "minecraft:wither"
+				value: 1L
+			}]
+		}
+		{
+			x: -28.5d
+			y: -26.5d
+			dependencies: ["4CF1DBF51967D37D"]
+			id: "0B19CB88749F4CEC"
+			tasks: [{
+				id: "38461FC9591B938E"
+				type: "item"
+				item: "minecraft:glowstone_dust"
+			}]
+		}
+		{
+			x: -29.5d
+			y: -25.0d
+			description: ["Everlasting Torch"]
+			dependencies: ["0B19CB88749F4CEC"]
+			id: "331166E227AE2F09"
+			tasks: [{
+				id: "38B0E6594167C4DA"
+				type: "item"
+				item: "minecraft:torch"
+			}]
+		}
+		{
+			x: -29.5d
+			y: -23.5d
+			dependencies: ["331166E227AE2F09"]
+			id: "20618DAE7892B7F3"
+			tasks: [{
+				id: "4CA6FEDD194D9C0D"
+				type: "item"
+				item: "mageflame:winged_torch_scroll"
+			}]
+		}
+		{
+			x: -27.5d
+			y: -25.0d
+			description: ["Not Quite AE2."]
+			dependencies: ["0B19CB88749F4CEC"]
+			id: "263CCF357A7C2669"
+			tasks: [
+				{
+					id: "397671C0805FD245"
+					type: "item"
+					item: "toms_storage:ts.inventory_connector"
+				}
+				{
+					id: "15AA55277E13FA46"
+					type: "item"
+					item: "toms_storage:ts.inventory_cable"
+				}
+				{
+					id: "335C2C96EEB6FB64"
+					type: "item"
+					item: "toms_storage:ts.inventory_cable_connector"
+				}
+			]
+		}
+		{
+			x: -27.5d
+			y: -23.5d
+			dependencies: ["263CCF357A7C2669"]
+			id: "38CF2AAA90B13F34"
+			tasks: [
+				{
+					id: "4A59FFFFE1505653"
+					type: "item"
+					item: "toms_storage:ts.storage_terminal"
+				}
+				{
+					id: "4A9931318E18CCB4"
+					type: "item"
+					item: "toms_storage:ts.crafting_terminal"
+				}
+			]
+		}
+		{
+			x: -27.5d
+			y: -21.5d
+			dependencies: ["38CF2AAA90B13F34"]
+			id: "56E8A03B86AB66D6"
+			tasks: [{
+				id: "3B728A84739016C1"
+				type: "item"
+				item: "toms_storage:ts.wireless_terminal"
+			}]
+		}
+		{
+			x: -27.5d
+			y: -20.0d
+			dependencies: ["56E8A03B86AB66D6"]
+			id: "758315311541EE06"
+			tasks: [{
+				id: "0BD8EA02071E84AB"
+				type: "item"
+				item: "toms_storage:ts.adv_wireless_terminal"
+			}]
+		}
+		{
+			x: -25.0d
+			y: -26.0d
+			dependencies: ["5C432C765159C4A0"]
+			id: "0127670F18ECA48A"
+			tasks: [
+				{
+					id: "242123402A43DEE8"
+					type: "item"
+					item: "minecraft:beacon"
+				}
+				{
+					id: "1EA44E62F1D18EA5"
+					type: "item"
+					item: "pyromancer:core_shard"
+				}
+			]
+		}
+		{
+			x: -26.0d
+			y: -25.0d
+			description: [
+				"Like in the good old days."
+				""
+				"Use the shard on the beacon at the center of the reactor to summon a raid of piglins.  "
+				""
+			]
+			dependencies: ["0127670F18ECA48A"]
+			optional: true
+			id: "70A3A273D0437EF3"
+			tasks: [{
+				id: "35430E30BE13E375"
+				type: "advancement"
+				advancement: "pyromancer:pigmen_legion_goal"
+				criterion: ""
+			}]
+		}
+		{
+			x: -24.5d
+			y: -24.5d
+			dependencies: ["0127670F18ECA48A"]
+			id: "5EA58840AA1F5EE8"
+			tasks: [
+				{
+					id: "69735521FCA94F47"
+					type: "kill"
+					icon: "pyromancer:fiery_coating"
+					entity: "pyromancer:unburned"
+					value: 1L
+				}
+				{
+					id: "20E780D7769BFC29"
+					type: "item"
+					item: "pyromancer:molten_pyrowood"
+				}
+			]
+		}
+		{
+			x: -24.5d
+			y: -23.0d
+			description: [
+				"There are a few summons here you will want to do.  The main one will be ressurecting villagers soul's from the nether.  There are a few other summons to be used later"
+				""
+			]
+			dependencies: ["5EA58840AA1F5EE8"]
+			id: "5FE2F5DE25758AE5"
+			tasks: [{
+				id: "4C073A33F4C109F5"
+				type: "item"
+				item: "summoningrituals:altar"
+			}]
+		}
+		{
+			x: -24.5d
+			y: -21.5d
+			description: ["Your real minecraft girlfriend"]
+			dependencies: ["5FE2F5DE25758AE5"]
+			id: "111C36238EDAFD0C"
+			tasks: [{
+				id: "4005B26893E1A71C"
+				type: "item"
+				item: "mca:engagement_ring"
+			}]
+		}
+		{
+			x: -24.5d
+			y: -20.0d
+			dependencies: ["111C36238EDAFD0C"]
+			id: "6805573185FBC0B9"
+			tasks: [{
+				id: "59068FEB146D2DD7"
+				type: "item"
+				item: "mca:wedding_ring"
+			}]
+		}
+		{
+			x: -24.5d
+			y: -18.5d
+			dependencies: ["6805573185FBC0B9"]
+			id: "43DEEE7ABBDFBF16"
+			tasks: [{
+				id: "7BAC6A479FDF3CC4"
+				type: "item"
+				title: "Any #mca:babies"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "mca:babies"
+					}
+				}
+			}]
+		}
+	]
+	quest_links: [ ]
+}

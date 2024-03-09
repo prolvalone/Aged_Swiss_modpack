@@ -1,0 +1,12 @@
+{
+	id: "42A505A912479505"
+	group: "4E4B712B3672CD1B"
+	order_index: 1
+	filename: "ae2"
+	title: "AE2"
+	icon: "ae2:charged_certus_quartz_crystal"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+	quest_links: [ ]
+}

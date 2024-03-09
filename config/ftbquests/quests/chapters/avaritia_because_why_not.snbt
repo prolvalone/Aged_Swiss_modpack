@@ -1,0 +1,12 @@
+{
+	id: "1E49BEB224BC0665"
+	group: "0959301D65348E35"
+	order_index: 1
+	filename: "avaritia_because_why_not"
+	title: "  Avaritia "
+	icon: "avaritia:infinity_catalyst"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+	quest_links: [ ]
+}

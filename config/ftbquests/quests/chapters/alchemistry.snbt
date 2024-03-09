@@ -1,0 +1,12 @@
+{
+	id: "7CE6DDB5B07418AD"
+	group: "1C1AD6786E210272"
+	order_index: 0
+	filename: "alchemistry"
+	title: "Alchemistry"
+	icon: "chemlib:hydrochloric_acid"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+	quest_links: [ ]
+}
