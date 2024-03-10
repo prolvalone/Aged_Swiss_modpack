@@ -63,6 +63,8 @@ event.remove({id: 'vs_eureka:engine'}),
 event.remove({id: 'create:milling/wheat'}),
 event.remove({id: 'vs_eureka:ballast'}),
 event.remove({id: 'create:crafting/kinetics/belt_connector'}),
-event.remove({id: 'create:mixing/chocolate'})
+event.remove({id: 'create:mixing/chocolate'}),
+event.remove({id: 'minecraft:sugar_from_honey_bottle'}),
+event.remove({id: 'minecraft:honey_bottle'})
   ].forEach((itemID) => event.remove({output: itemID}));
 });

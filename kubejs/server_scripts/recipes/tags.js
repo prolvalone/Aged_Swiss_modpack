@@ -22,5 +22,8 @@ event.add('minecraft:dried_kelp','tfc:food/dried_kelp'),
 // wrought iron
 event.add('forge:ingots/iron','tfc:metal/ingot/wrought_iron'),
 // slime
-event.add('forge:slimeballs', 'tfc:glue')
+event.add('forge:slimeballs', 'tfc:glue'),
+//honey
+event.add('swiss:honey_bottle', 'minecraft:honey_bottle'),
+event.add('swiss:honey_bottle', 'firmalife:honey_jar')
 })
