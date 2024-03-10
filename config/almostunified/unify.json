@@ -32,7 +32,8 @@
     "forge:storage_blocks/{material}",
     "forge:storage_blocks/raw_{material}",
 	"minecraft:dried_kelp",
-	"forge:gems/quartz"
+	"forge:gems/quartz",
+	"swiss:honey_bottle"
   ],
   "materials": [
     "aeternium",
