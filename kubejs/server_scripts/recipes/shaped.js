@@ -257,8 +257,23 @@ event.shaped('vs_eureka:ballast', [
 	B: '#forge:stone',
 	C: 'tfc:metal/ingot/wrought_iron'
 });
-
-
+event.shaped('minecraft:bucket', [
+    'ACA',
+	'ABA',
+	'CAC'
+  ], {
+    A: 'tfc:metal/ingot/wrought_iron',
+	B: 'minecraft:bucket',
+	C: 'minecraft:air'
+});
+event.shaped('vs_eureka:ballast', [
+    'A',
+	'B',
+	
+  ], {
+    A: 'create_crystal_clear:copper_glass_casing',
+	B: 'create:mechanical_pump'
+});
 
 
 

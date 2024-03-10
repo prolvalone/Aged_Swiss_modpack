@@ -21,6 +21,11 @@ const metals =[
 "blue_steel",
 "red_steel"
 ]	
+const ieMetals =[
+"aluminum",
+"lead",
+"uranium"
+]
 const orePieces =[
 "native_copper",
 "native_gold",
@@ -172,6 +177,13 @@ for (const metal of metals) {
 //}
 /***********CRUSHING************************/
 //{
+// TFC_IE metals
+for (const metals of ieMetals){
+event.recipes.create.crushing(`4x create:crushed_raw_${metals}`, `tfc_ie_addon:ore/rich_${metals}`),
+event.recipes.create.crushing(`3x create:crushed_raw_${metals}`, `tfc_ie_addon:ore/normal_${metals}`),
+event.recipes.create.crushing(`2x create:crushed_raw_${metals}`, `tfc_ie_addon:ore/poor_${metals}`),
+event.recipes.create.crushing(`1x create:crushed_raw_${metals}`, `tfc_ie_addon:ore/small_${metals}`)
+}
 // firmalife chromium
 event.recipes.create.crushing('chemlib:chromium_dust', 'firmalife:ore/small_chromite'),
 event.recipes.create.crushing('2x chemlib:chromium_dust', 'firmalife:ore/poor_chromite'),
@@ -280,6 +292,7 @@ for (const logs of firmaLogs){
 	event.recipes.create.cutting(`10x tfc:wood/lumber/${logs}`, `tfc:wood/log/${logs}`),
 	event.recipes.create.cutting(`10x tfc:wood/lumber/${logs}`, `tfc:wood/stripped_log/${logs}`)
 }
+
 ////////// ARBORFIRMACRAFT Logs /////////////
 //{	
 event.recipes.create.cutting("10x afc:wood/lumber/eucalyptus", "afc:wood/log/eucalyptus"),

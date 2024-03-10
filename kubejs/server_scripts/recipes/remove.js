@@ -62,6 +62,7 @@ event.remove({id: 'thermal:machines/press/unpacking/press_dried_kelp_unpacking'}
 event.remove({id: 'vs_eureka:engine'}),
 event.remove({id: 'create:milling/wheat'}),
 event.remove({id: 'vs_eureka:ballast'}),
-event.remove({id: 'create:crafting/kinetics/belt_connector'})
+event.remove({id: 'create:crafting/kinetics/belt_connector'}),
+event.remove({id: 'create:mixing/chocolate'})
   ].forEach((itemID) => event.remove({output: itemID}));
 });
