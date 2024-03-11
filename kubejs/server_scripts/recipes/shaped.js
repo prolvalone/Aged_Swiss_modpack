@@ -191,11 +191,11 @@ event.shaped('summoningrituals:altar', [
     'DCD',
 	'EEE',
   ], {
-    B: 'minecraft:nether_star',
+    B: 'minecraft:wither_skeleton_skull',
     A: 'tfc:candle',
 	C: '#forge:planks/wooden',
 	D: 'tfc:metal/sheet/gold',
-	E: 'pyromancer:molten_pyrowood'
+	E: 'minecraft:blaze_rod'
   });  
 event.shaped('create:fluid_tank', [
     'A',
@@ -266,7 +266,7 @@ event.shaped('minecraft:bucket', [
 	B: 'minecraft:bucket',
 	C: 'minecraft:air'
 });
-event.shaped('vs_eureka:ballast', [
+event.shaped('create:spout', [
     'A',
 	'B',
 	
@@ -274,7 +274,19 @@ event.shaped('vs_eureka:ballast', [
     A: 'create_crystal_clear:copper_glass_casing',
 	B: 'create:mechanical_pump'
 });
-
+event.shaped('toms_storage:ts.inventory_cable_connector', [
+    'ADR',
+	'BCE',
+	'AVR'
+  ], {
+    A: 'minecraft:air',
+	B: 'toms_storage:ts.inventory_cable',
+	C: '#forge/chests/wooden',
+	D: 'tfc_ie_addon:mineral/quartz_shard',
+	E: 'firmalife:beeswax',
+	R: '#forge:planks/wooden',
+	V: 'minecraft:redstone'
+});
 
 
 
