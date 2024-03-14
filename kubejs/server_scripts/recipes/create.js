@@ -76,7 +76,17 @@ const firmaLogs =[
 "sequoia",
 "white_cedar"
 ]
-
+const TFCgems =[
+"topaz",
+"sapphire",
+"ruby",
+"pyrite",
+"opal",
+"lapis_lazuli",
+"diamond",
+"amethyst"
+//minecraft:emerald
+]
 /************** Milling *********/
 //{
 	//////// QUARTZ
@@ -292,7 +302,10 @@ for (const logs of firmaLogs){
 	event.recipes.create.cutting(`10x tfc:wood/lumber/${logs}`, `tfc:wood/log/${logs}`),
 	event.recipes.create.cutting(`10x tfc:wood/lumber/${logs}`, `tfc:wood/stripped_log/${logs}`)
 }
-
+for (const gems of TFCgems){
+	event.recipes.create.cutting(`tfc:gem/${gems}`, `tfc:ore/${gems}`)
+}
+event.recipes.create.cutting("minecraft:emerald", "tfc:ore/emerald")
 ////////// ARBORFIRMACRAFT Logs /////////////
 //{	
 event.recipes.create.cutting("10x afc:wood/lumber/eucalyptus", "afc:wood/log/eucalyptus"),
