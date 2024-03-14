@@ -1,6 +1,8 @@
 {
   "modPriorities": [
 	"tfc",
+	"rosia",
+	"firmalife",
 	"tfc_ie_addon",
     "kubejs",
     "crafttweaker",
@@ -84,7 +86,7 @@
     "uranium",
     "zinc"
   ],
-  "priorityOverrides": {},
+  "priorityOverrides": {"forge:gems/emerald": "minecraft"},
   "ignoredTags": [],
   "ignoredItems": [],
   "ignoredRecipeTypes": [
